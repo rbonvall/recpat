@@ -81,13 +81,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="896.72628"
-     inkscape:cy="509.38143"
+     inkscape:zoom="0.7"
+     inkscape:cx="614.12772"
+     inkscape:cy="778.86462"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="940"
+     inkscape:window-width="1024"
      inkscape:window-height="687"
      inkscape:window-x="0"
      inkscape:window-y="28"
@@ -112,832 +112,228 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g6694"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         sodipodi:nodetypes="cc"
-         id="path2387"
-         d="M 122.57143,300.07647 C 122.57143,300.07647 466.85714,261.50504 558.28572,131.50504"
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
-      <path
-         sodipodi:nodetypes="cc"
-         id="path2389"
-         d="M 126.85714,375.50504 C 126.85714,375.50504 415.42857,329.79075 581.14285,325.79076"
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
-      <path
-         sodipodi:nodetypes="cc"
-         id="path2391"
-         d="M 124,240.07647 C 124,240.07647 414,201.50503 529.71428,85.790753"
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
-      <path
-         id="path2393"
-         d="M 121.14286,334.36218 C 121.14286,334.36218 445.42857,300.07647 594,241.50504"
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
-      <path
-         sodipodi:nodetypes="cc"
-         id="path3165"
-         d="M 241.42857,145.21933 C 241.42857,145.21933 344.28571,239.50504 338.57143,432.36218"
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
-      <path
-         id="path3167"
-         d="M 388.57143,108.07647 C 388.57143,108.07647 497.14286,278.07647 520,430.93361"
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
-    </g>
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3169"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(-1.4285716,-3.9239058e-7)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3171"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(23.571425,57.142855)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3173"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(40.714282,102.85714)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3175"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(46.428567,145)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3177"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(130.71428,-44.285717)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3179"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(158.10224,11.255254)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3181"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(186.42857,69.999997)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3183"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(207.68382,128.05149)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 281.42858,213.79075 C 281.42858,213.79075 250,288.07647 327.14286,305.21932"
-       id="path3187"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 430,162.36218 C 430,162.36218 512.85714,172.36218 474.28571,272.36218"
-       id="path3189"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 322.85714,263.07646 C 322.85714,263.07646 385,277.36218 339.28571,343.07647"
-       id="path3191"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 438.22479,225.04601 C 438.22479,225.04601 421.08194,302.18887 491.08194,333.61744"
-       id="path3193"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="170"
-       y="71.504059"
+       x="608.57141"
+       y="-2.7816556"
        id="text6702"><tspan
          sodipodi:role="line"
          id="tspan6704"
-         x="170"
-         y="71.504059">(consistencia)</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 232.33509,570.51942 C 232.33509,570.51942 325.26912,569.58018 437.39605,515.97118"
-       id="path6706" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1;color:#000000;fill-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 708.11693,249.29091 C 708.11693,249.29091 801.05097,229.08786 888.93424,147.2655"
-       id="path6708"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1;color:#000000;fill-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 731.35044,339.19449 C 731.35044,339.19449 899.03577,310.91021 960.65507,174.53962"
-       id="path6710"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1;color:#000000;fill-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 806.10173,139.18428 C 806.10173,139.18428 835.39616,224.0371 974.79721,276.56503"
-       id="path6712"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1;color:#000000;fill-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 710,187.6716 C 710,187.6716 819.23372,320.00159 958.63477,346.26555"
-       id="path6714"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path6716"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(469.75726,31.358017)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path6718"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(625.32075,42.469696)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path6720"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(550.56947,-14.098848)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 913.0013,250.41823 C 908.64322,354.76693 816.51232,355.51131 757.2768,237.10837"
-       id="path6722"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 833.53447,187.11831 C 833.53447,187.11831 736.96084,180.0893 754.88616,237.72237"
-       id="path9605"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 938.99496,584.18454 C 916.17918,613.37243 860,612.90252 769.4329,579.23021"
-       id="path9607"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+         x="608.57141"
+         y="-2.7816556">(consistencia)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="659.45367"
-       y="66.89006"
+       x="610.88226"
+       y="-44.538509"
        id="text9609"><tspan
          sodipodi:role="line"
          id="tspan9611"
-         x="659.45367"
-         y="66.89006">(dominancia)</tspan></text>
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 1123.7947,145.69335 C 1123.7947,145.69335 1211.6779,220.44464 1423.81,240.64769"
-       id="path9613"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9615"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(865.73706,-38.904506)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9617"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(922.14285,-13.650692)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9619"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(1028.3716,19.684341)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9621"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(1082.8571,29.785867)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+         x="610.88226"
+         y="-44.538509">(dominancia)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="1235.7142"
-       y="301.40042"
-       id="text9623"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan9625"
-         x="1235.7142"
-         y="301.40042"
-         style="font-size:56px">⇓</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 1161.4286,147.36218 L 1175.7143,123.07647"
-       id="path9627"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 1323.5714,204.50504 L 1333.5714,174.50504"
-       id="path9629"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 1200,208.07647 L 1186.4286,230.93361"
-       id="path9631"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 1365,250.21932 L 1359.2857,274.50504"
-       id="path9633"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path9639"
-       sodipodi:cx="1223.2142"
-       sodipodi:cy="154.50504"
-       sodipodi:rx="13.214287"
-       sodipodi:ry="12.857142"
-       d="M 1236.4285,154.50504 A 13.214287,12.857142 0 1 1 1209.9999,154.50504 A 13.214287,12.857142 0 1 1 1236.4285,154.50504 z"
-       transform="translate(2,4)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 1167.8571,135.21932 C 1167.8571,135.21932 1263.5714,178.07647 1327.8571,190.21932"
-       id="path9641"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 1192.8571,218.79075 C 1192.8571,218.79075 1255,246.6479 1362.8571,263.79075"
-       id="path9643"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path9645"
-       sodipodi:cx="1223.2142"
-       sodipodi:cy="154.50504"
-       sodipodi:rx="13.214287"
-       sodipodi:ry="12.857142"
-       d="M 1236.4285,154.50504 A 13.214287,12.857142 0 1 1 1209.9999,154.50504 A 13.214287,12.857142 0 1 1 1236.4285,154.50504 z"
-       transform="translate(85.357197,99.285718)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 1122.9923,265.97906 C 1122.9923,265.97906 1210.8755,340.73035 1423.0076,360.9334"
-       id="path9647"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9649"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(864.93471,81.381208)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9651"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(921.3405,106.63502)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9653"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(1027.5692,139.97005)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9655"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(1082.0547,150.07158)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 1144.3405,303.79075 L 1130.7691,326.64789"
-       id="path9661"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 1362.1976,374.50503 L 1356.4833,398.79075"
-       id="path9663"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 1136.4833,314.50503 C 1136.4833,314.50503 1252.1976,370.93361 1360.0547,388.07646"
-       id="path9669"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path9671"
-       sodipodi:cx="1223.2142"
-       sodipodi:cy="154.50504"
-       sodipodi:rx="13.214287"
-       sodipodi:ry="12.857142"
-       d="M 1236.4285,154.50504 A 13.214287,12.857142 0 1 1 1209.9999,154.50504 A 13.214287,12.857142 0 1 1 1236.4285,154.50504 z"
-       transform="translate(82.554853,221.57143)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path9673"
-       sodipodi:cx="1223.2142"
-       sodipodi:cy="154.50504"
-       sodipodi:rx="13.214287"
-       sodipodi:ry="12.857142"
-       d="M 1236.4285,154.50504 A 13.214287,12.857142 0 1 1 1209.9999,154.50504 A 13.214287,12.857142 0 1 1 1236.4285,154.50504 z"
-       transform="translate(-25.78566,186.42858)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/transitividad.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="1088.6538"
-       y="67.777916"
+       x="612.93951"
+       y="34.920773"
        id="text9675"><tspan
          sodipodi:role="line"
          id="tspan9677"
-         x="1088.6538"
-         y="67.777916">(transitividad)</tspan></text>
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 690.87572,420.36218 C 690.87572,420.36218 826.37341,461.77844 980.92676,477.94088"
-       id="path9679"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 693.90617,506.59554 C 688.35706,506.90382 816.69227,502.28096 973.85568,539.93057"
-       id="path9681"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 696.50792,591.07286 C 690.92462,591.41533 802.54796,555.01702 975.44728,576.93072"
-       id="path9683"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 940,440.20973 C 940,440.20973 864.23347,559.40774 1003.6345,611.93567"
-       id="path9685"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 799.58886,424.55238 C 787.50215,415.91902 712.10345,531.62413 892.52283,613.45091"
-       id="path9687"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 725.32393,412.36218 C 713.23722,403.72882 632.78776,525.79915 813.20714,607.62593"
-       id="path9689"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9691"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(473.79788,373.79973)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9693"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(492.85714,307.12966)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9695"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(639.46289,267.73371)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path9697"
-       sodipodi:cx="287.85715"
-       sodipodi:cy="203.79076"
-       sodipodi:rx="10.714286"
-       sodipodi:ry="10"
-       d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
-       transform="translate(654.61518,369.75912)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 772.42568,514.45897 C 742.12183,526.88379 714.32253,536.71954 752.06166,575.9004"
-       id="path9699"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 919.14668,467.31142 C 870.66008,442.36218 816.59681,444.76866 779.58465,510.21348"
-       id="path9701"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 916.42018,236.77154 C 916.42018,236.77154 942.28283,167.11307 840,187.3705"
-       id="path9703"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 931.25641,478.26762 C 957.93811,497.35399 985.6016,538.30033 943.52182,574.32854"
-       id="path9705"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146343"
-       d="M 795.95939,293.73762 C 795.95939,293.73762 814.18295,227.06755 775.79716,193.73251"
-       id="path9709"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146343"
-       d="M 898.02561,304.8493 C 898.02561,304.8493 850.54844,235.14877 894.99515,186.66145"
-       id="path9711"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780489;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146342999999997;font-family:Bitstream Vera Sans"
-       x="388.93524"
-       y="-746.76337"
-       id="text9713"
-       transform="matrix(0.196053,0.9805933,-0.9805933,0.196053,0,0)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan9715"
-         x="388.93524"
-         y="-746.76337"
-         style="font-size:24px;stroke:#0000ff;stroke-opacity:0.54146342999999997;fill:#0000ff;fill-opacity:0.48780489">&lt;</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780489;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146342999999997;font-family:Bitstream Vera Sans"
-       x="134.40517"
-       y="-876.60321"
-       id="text9717"
-       transform="matrix(-0.1128032,0.9936173,-0.9936173,-0.1128032,0,0)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dominancia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan9719"
-         x="134.40517"
-         y="-876.60321"
-         style="font-size:24px;stroke:#0000ff;stroke-opacity:0.54146342999999997;fill:#0000ff;fill-opacity:0.48780489">&lt;</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346"
-       d="M 347.07107,325.39264 C 347.07107,325.39264 231.99971,335.65896 280.48704,277.0701"
-       id="path9721"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346"
-       d="M 481.95377,205.99047 C 548.88832,202.62173 537.4357,289.16556 456.786,308.18067"
-       id="path9723"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:40.00001907px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
-       x="-149.94997"
-       y="574.02588"
-       id="text9725"
-       transform="matrix(0.1677548,-0.9858288,0.9858288,0.1677548,0,0)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan9727"
-         x="-149.94997"
-         y="574.02588"
-         style="font-size:24.00000954px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1;stroke-opacity:0.54146346">&lt;</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
-       x="-339.3092"
-       y="-275.99039"
-       id="text9729"
-       transform="matrix(-0.9881201,-0.1536835,0.1536835,-0.9881201,0,0)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/consistencia.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan9731"
-         x="-339.3092"
-         y="-275.99039"
-         style="font-size:24px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1;stroke-opacity:0.54146346">&lt;</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346"
-       d="M 845.33613,602.36218 C 799.46726,643.95135 694.16554,598.44576 737.29063,557.90772"
-       id="path9733"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346"
-       d="M 964.17019,529.70928 C 1010.4834,443.64328 886.56404,392.36218 873.29729,452.92994"
-       id="path9735"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:39.99989319px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.99999833px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
-       x="-936.95465"
-       y="-325.59384"
-       id="text9737"
-       transform="matrix(-0.9421572,-0.3351713,0.3351713,-0.9421572,0,0)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan9739"
-         x="-936.95465"
-         y="-325.59384"
-         style="font-size:23.99994659px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.99999833;stroke-opacity:0.54146346">&lt;</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:39.99989319px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.9999975px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
-       x="-912.78851"
-       y="601.48633"
-       id="text9741"
-       transform="matrix(-0.523912,-0.8517724,0.8517724,-0.523912,0,0)"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan9743"
-         x="-912.78851"
-         y="601.48633"
-         style="font-size:23.99994659px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.9999975;stroke-opacity:0.54146346">&lt;</tspan></text>
+         x="612.93951"
+         y="34.920773">(transitividad)</tspan></text>
+    <g
+       id="g9919"
+       transform="matrix(0.75,0,0,0.75,-448.64496,-76.534115)">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9607"
+         d="M 948.99496,706.33699 C 926.17918,735.52488 870,735.05497 779.4329,701.38266"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9679"
+         d="M 700.87572,542.51463 C 700.87572,542.51463 836.37341,583.93089 990.92676,600.09333"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9681"
+         d="M 703.90617,628.74799 C 698.35706,629.05627 826.69227,624.43341 983.85568,662.08302"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9683"
+         d="M 706.50792,713.22531 C 700.92462,713.56778 812.54796,677.16947 985.44728,699.08317"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9685"
+         d="M 950,562.36218 C 950,562.36218 874.23347,681.56019 1013.6345,734.08812"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9687"
+         d="M 809.58886,546.70483 C 797.50215,538.07147 722.10345,653.77658 902.52283,735.60336"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9689"
+         d="M 735.32393,534.51463 C 723.23722,525.88127 642.78776,647.9516 823.20714,729.77838"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         transform="translate(483.79788,495.95218)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9691"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         transform="translate(502.85714,429.28211)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9693"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         transform="translate(649.46289,389.88616)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9695"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         transform="translate(664.61518,491.91157)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9697"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9699"
+         d="M 782.42568,636.61142 C 752.12183,649.03624 724.32253,658.87199 762.06166,698.05285"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9701"
+         d="M 929.14668,589.46387 C 880.66008,564.51463 826.59681,566.92111 789.58465,632.36593"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9705"
+         d="M 941.25641,600.42007 C 967.93811,619.50644 995.6016,660.45278 953.52182,696.48099"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9733"
+         d="M 855.33613,724.51463 C 809.46726,766.1038 704.16554,720.59821 747.29063,680.06017"
+         style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         sodipodi:nodetypes="cc"
+         id="path9735"
+         d="M 974.17019,651.86173 C 1020.4834,565.79573 896.56404,514.51463 883.29729,575.08239"
+         style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         transform="matrix(-0.9421572,-0.3351713,0.3351713,-0.9421572,0,0)"
+         id="text9737"
+         y="-437.32892"
+         x="-987.31824"
+         style="font-size:39.99989319px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.99999833px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:23.99994659px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.99999833;stroke-opacity:0.54146346"
+           y="-437.32892"
+           x="-987.31824"
+           id="tspan9739"
+           sodipodi:role="line">&lt;</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/esquina.png"
+         transform="matrix(-0.523912,-0.8517724,0.8517724,-0.523912,0,0)"
+         id="text9741"
+         y="546.0069"
+         x="-1022.0737"
+         style="font-size:39.99989319px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.9999975px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:23.99994659px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.9999975;stroke-opacity:0.54146346"
+           y="546.0069"
+           x="-1022.0737"
+           id="tspan9743"
+           sodipodi:role="line">&lt;</tspan></text>
+    </g>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="615.45233"
-       y="672.98163"
+       x="80"
+       y="646.56268"
        id="text9745"><tspan
          sodipodi:role="line"
          id="tspan9747"
-         x="615.45233"
-         y="672.98163">(desigualdad de esquina)</tspan></text>
+         x="80"
+         y="646.56268">(desigualdad de esquina)</tspan></text>
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#0000ff;fill-opacity:0.48780488;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.54146346;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1008,5 +404,622 @@
        style="opacity:1;fill:#ff0000;fill-opacity:0.48780488;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.54146346;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 70.458198,1058.3934 C 30.380398,1058.3934 -4.2523118,1081.7574 -20.573052,1115.6122 C -20.603442,1115.6752 -20.636542,1115.7366 -20.666802,1115.7997 L -67.416802,1205.3622 L -67.385552,1205.6434 C -74.199722,1219.2389 -78.041802,1234.597 -78.041802,1250.8309 C -78.041802,1277.2324 -67.894112,1301.2659 -51.291802,1319.2685 L -51.260552,1319.5185 L 17.801948,1387.6122 C 36.332948,1410.1737 64.442838,1424.581 95.895698,1424.5809 C 113.18296,1424.5809 129.47596,1420.2137 143.7082,1412.5497 C 143.8217,1412.4886 143.93871,1412.4237 144.05195,1412.3622 L 234.61445,1366.2372 L 234.7082,1366.0809 C 266.50556,1349.0622 288.14572,1315.5203 288.1457,1276.9559 C 288.1457,1269.1252 287.27201,1261.4948 285.5832,1254.1747 C 285.58093,1254.1648 285.58548,1254.1533 285.5832,1254.1435 L 271.5832,1163.8934 C 265.95531,1117.2612 228.53661,1080.379 181.6457,1075.6122 C 181.58406,1075.6059 181.51988,1075.6183 181.4582,1075.6122 L 86.364448,1059.3934 L 86.020698,1059.5809 C 80.946808,1058.7951 75.751128,1058.3934 70.458198,1058.3934 z"
        id="path9800" />
+    <g
+       id="g9851"
+       transform="matrix(0.75,0,0,0.75,98.767908,43.137295)"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(-8.9593845,-73.233509)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="g6694">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 271.06385,276.84295 C 271.06385,276.84295 420.39012,270.59641 532.02175,147.66748"
+           id="path2387"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 271.30896,372.47458 C 301.61353,343.87831 448.76361,312.98604 548.81797,327.81107"
+           id="path2389"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 275.52288,230.9851 C 275.52288,230.9851 368.54314,219.33172 451.93253,110.03441"
+           id="path2391"
+           sodipodi:nodetypes="cc" />
+        <path
+           sodipodi:nodetypes="cc"
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 272.66575,319.20989 C 272.66575,319.20989 399.97171,309.16784 548.54314,250.59641"
+           id="path2393" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 264.66208,152.2904 C 330.79279,163.2942 430.07998,228.66173 336.67367,379.53477"
+           id="path3165"
+           sodipodi:nodetypes="cc" />
+        <path
+           sodipodi:nodetypes="cc"
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 388.57143,108.07647 C 388.57143,108.07647 505.22408,231.60945 491.71573,380.42598"
+           id="path3167" />
+      </g>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(57.292255,-75.253814)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path3169"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(77.241505,-24.171874)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path3171"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(72.160995,26.593173)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path3173"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(60.571425,61.66496)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path3175"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(120.57143,-127.62075)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path3177"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(156.21393,-63.99856)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path3179"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(177.46919,-3.233512)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path3181"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(193.67368,49.767217)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path3183"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path3187"
+         d="M 335.09866,136.51663 C 335.09866,136.51663 278.41627,210.80235 355.55913,227.9452"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path3189"
+         d="M 420.03047,80.0373 C 420.03047,80.0373 507.93837,99.12867 469.36694,199.12867"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path3191"
+         d="M 373.32344,186.43252 C 419.42748,251.62327 392.61703,279.06559 354.56999,269.84296"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path3193"
+         d="M 436.33647,148.78204 C 436.33647,148.78204 405.05149,221.88429 475.05149,253.31286"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path6708"
+         d="M -30.990125,193.93072 C -30.990125,193.93072 61.943915,173.72767 149.82719,91.90531"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path6710"
+         d="M -7.7566145,283.8343 C -7.7566145,283.8343 159.92872,255.55002 221.54802,119.17943"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path6712"
+         d="M 66.994675,83.82409 C 66.994675,83.82409 96.289105,168.67691 235.69016,221.20484"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path6714"
+         d="M -29.107055,132.31141 C -29.107055,132.31141 80.126665,264.6414 219.52772,290.90536"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(-269.34979,-24.002164)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path6716"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(-113.7863,-12.890484)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path6718"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(-188.53758,-69.459024)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path6720"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path6722"
+         d="M 173.89425,195.05804 C 169.53617,299.40674 77.405265,300.15112 18.169745,181.74818"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path9605"
+         d="M 94.427415,131.75812 C 94.427415,131.75812 -2.1462145,124.72911 15.779105,182.36218"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path9613"
+         d="M 563.50899,61.69335 C 563.50899,61.69335 606.94549,128.36342 819.07759,148.56647"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(304.4412,-118.8639)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9615"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(357.85714,-92.620234)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9617"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(442.83208,-70.376574)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9619"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(484.18559,-62.295353)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9621"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="text9623"
+         y="227.40042"
+         x="675.42853"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:56px"
+           y="227.40042"
+           x="675.42853"
+           id="tspan9625"
+           sodipodi:role="line">⇓</tspan></text>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path9627"
+         d="M 601.14289,63.36218 L 615.42859,39.07647"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path9629"
+         d="M 735.00139,115.45428 L 745.00139,85.45428"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path9631"
+         d="M 639.71429,124.07647 L 626.14289,146.93361"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path9633"
+         d="M 768.34879,159.14825 L 762.63449,183.43397"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(-562.28571,-78)"
+         d="M 1236.4285,154.50504 A 13.214287,12.857142 0 1 1 1209.9999,154.50504 A 13.214287,12.857142 0 1 1 1236.4285,154.50504 z"
+         sodipodi:ry="12.857142"
+         sodipodi:rx="13.214287"
+         sodipodi:cy="154.50504"
+         sodipodi:cx="1223.2142"
+         id="path9639"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path9641"
+         d="M 607.57139,51.21932 C 607.57139,51.21932 673.99129,89.02571 738.27699,101.16856"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path9643"
+         d="M 632.57139,134.79075 C 632.57139,134.79075 670.47059,156.58698 765.19579,171.70953"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(-501.17218,8.25526)"
+         d="M 1236.4285,154.50504 A 13.214287,12.857142 0 1 1 1209.9999,154.50504 A 13.214287,12.857142 0 1 1 1236.4285,154.50504 z"
+         sodipodi:ry="12.857142"
+         sodipodi:rx="13.214287"
+         sodipodi:cy="154.50504"
+         sodipodi:cx="1223.2142"
+         id="path9645"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path9703"
+         d="M 177.31313,181.41135 C 177.31313,181.41135 203.17578,111.75288 100.89295,132.01031"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-mid:none;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path9709"
+         d="M 56.852335,238.37743 C 56.852335,238.37743 75.075895,171.70736 36.690105,138.37232"
+         style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path9711"
+         d="M 158.91856,249.48911 C 158.91856,249.48911 111.44139,179.78858 155.8881,131.30126"
+         style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="matrix(0.196053,0.9805933,-0.9805933,0.196053,0,0)"
+         id="text9713"
+         y="-32.853409"
+         x="189.74545"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:24px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1;stroke-opacity:0.54146346"
+           y="-32.853409"
+           x="189.74545"
+           id="tspan9715"
+           sodipodi:role="line">&lt;</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="matrix(-0.1128032,0.9936173,-0.9936173,-0.1128032,0,0)"
+         id="text9717"
+         y="-135.96793"
+         x="162.77177"
+         style="font-size:39.99992371px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.99999881px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:23.99996185px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:0.99999881;stroke-opacity:0.54146346"
+           y="-135.96793"
+           x="162.77177"
+           id="tspan9719"
+           sodipodi:role="line">&lt;</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="matrix(0.1677548,-0.9858288,0.9858288,0.1677548,0,0)"
+         id="text9725"
+         y="552.90973"
+         x="-79.257515"
+         style="font-size:40.00024414px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:24.00012207px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1;stroke-opacity:0.54146346"
+           y="552.90973"
+           x="-79.257515"
+           id="tspan9727"
+           sodipodi:role="line">&lt;</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="matrix(-0.8313604,-0.5557337,0.5557337,-0.8313604,0,0)"
+         id="text9729"
+         y="-23.157877"
+         x="-371.08459"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:24px;fill:#0000ff;fill-opacity:0.48780488;stroke:#0000ff;stroke-width:1;stroke-opacity:0.54146346"
+           y="-23.157877"
+           x="-371.08459"
+           id="tspan9731"
+           sodipodi:role="line">&lt;</tspan></text>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path9721"
+         d="M 398.00655,244.50504 C 280.00944,265.76479 257.06862,180.16005 314.12738,181.57119"
+         style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path9723"
+         d="M 476.02485,131.74681 C 542.9594,128.37807 528.47632,215.93205 447.82662,234.94716"
+         style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.54146346" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         sodipodi:nodetypes="cc"
+         id="path9823"
+         d="M 565.56479,189.26478 C 565.56479,189.26478 609.00129,255.93485 821.13339,276.1379"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(306.49701,8.707534)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9825"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(359.91295,34.9512)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9827"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(444.88792,57.19486)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9829"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(486.24142,65.27608)"
+         d="M 298.57143,203.79076 A 10.714286,10 0 1 1 277.14286,203.79076 A 10.714286,10 0 1 1 298.57143,203.79076 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10.714286"
+         sodipodi:cy="203.79076"
+         sodipodi:cx="287.85715"
+         id="path9831"
+         style="fill:#000000;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path9837"
+         d="M 586.34149,224.50504 L 572.77009,247.36218"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path9839"
+         d="M 770.40459,286.71968 L 764.69029,311.0054"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         id="path9845"
+         d="M 578.91289,237.36218 C 578.91289,237.36218 661.81209,286.30127 767.25159,299.28096"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(-499.11636,137.82669)"
+         d="M 1236.4285,154.50504 A 13.214287,12.857142 0 1 1 1209.9999,154.50504 A 13.214287,12.857142 0 1 1 1236.4285,154.50504 z"
+         sodipodi:ry="12.857142"
+         sodipodi:rx="13.214287"
+         sodipodi:cy="154.50504"
+         sodipodi:cx="1223.2142"
+         id="path9847"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/export/home/rbonvall/ramos/recpat/similaridad/imagenes/dom-cons-trans.png"
+         transform="translate(-585.35709,110)"
+         d="M 1236.4285,154.50504 A 13.214287,12.857142 0 1 1 1209.9999,154.50504 A 13.214287,12.857142 0 1 1 1236.4285,154.50504 z"
+         sodipodi:ry="12.857142"
+         sodipodi:rx="13.214287"
+         sodipodi:cy="154.50504"
+         sodipodi:cx="1223.2142"
+         id="path9849"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
   </g>
 </svg>
