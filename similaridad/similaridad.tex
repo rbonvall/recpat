@@ -1,0 +1,43 @@
+% vim: set fileencoding=utf-8 encoding=utf-8:
+\documentclass[spanish]{article}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+
+\title{Reconocimiento de Patrones \\
+    Discusión del artículo \textit{Similarity~Measures}}
+\author{Roberto Bonvallet \\ \url {<rbonvall@gmail.com>}}
+\date{Agosto de 2008}
+
+\begin{document}
+\maketitle
+
+% set members for next example
+\newcommand{\SMA}{\Box}
+\newcommand{\SMB}{\spadesuit}
+\newcommand{\SMC}{\heartsuit}
+\newcommand{\SMD}{\clubsuit}
+\newcommand{\SME}{\diamondsuit}
+
+\begin{align*}
+    A &= \{\phantom{\SMA,  \SMB,} \SMC,          \SMD,          \SME\}  \\
+    B &= \{\phantom{\SMA,} \SMB,  \SMC,          \SMD\phantom{, \SME}\} \\
+    C &=          \{\SMA,  \SMB,  \SMC\phantom{, \SMD,          \SME}\} \\
+\end{align*}
+
+\begin{figure}[t]
+  \begin{center}
+  \end{center}
+  \caption{%
+      Ejemplo de dominancia: la distancia asociada a la flecha continua
+      siempre es mayor a cada una de las asociadas a flechas punteadas.}
+\end{figure} 
+
+
+\end{document}
