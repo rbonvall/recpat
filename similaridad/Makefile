@@ -1,5 +1,5 @@
-all: similaridad.dvi
 pdf: similaridad.pdf
+dvi: similaridad.dvi
 
 %.dvi: %.tex
 	latex $^
