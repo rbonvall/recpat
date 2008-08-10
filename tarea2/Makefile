@@ -1,5 +1,7 @@
-pdf: similaridad.pdf
-dvi: similaridad.dvi
+DOC = similaridad
+
+pdf: $(DOC).pdf
+dvi: $(DOC).dvi
 
 %.dvi: %.tex
 	latex $^
