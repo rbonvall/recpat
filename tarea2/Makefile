@@ -8,4 +8,4 @@ dvi: similaridad.dvi
 	pdflatex $^
 
 clean:
-	rm *.aux *.log *.dvi *.pdf
+	rm *.aux *.log *.dvi *.pdf *.tex~
