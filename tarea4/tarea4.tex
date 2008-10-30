@@ -10,8 +10,10 @@
 \usepackage{graphicx}
 
 \newcommand{\pregunta}{\textit}
+\newcommand{\given}{\vert}
+\newcommand{\R}{\mathbb{R}}
 
-\title{Reconocimiento de Patrones \\ Tarea 4}
+\title{Reconocimiento de Patrones---Tarea 4}
 \author{Roberto Bonvallet \\ \url {<rbonvall@gmail.com>}}
 \date{Agosto de 2008}
 
@@ -22,20 +24,74 @@
 \pregunta{
     Considere un conjunto de clases $\omega_i$, $i = 1, 2, \ldots, c$ y un conjunto de
     características representadas en el vector aleatorio $x$.  Sea $\omega_j$ tal que
-    $P(w_j\vert x)\ge P(w_i\vert x)$ para todo $i = 1, 2, \ldots, c$.
+    $P(\omega_j\given x)\ge P(\omega_i\given x)$ para todo $i = 1, 2, \ldots, c$.
 }
 \begin{enumerate}
-    \item \pregunta{Muestre que $P(\omega_j\vert x) \ge 1/c$.}
+    \item \pregunta{Muestre que $P(\omega_j\given x) \ge 1/c$.}
+
+        Sin pérdida de generalidad, supongamos que $j = 1$, es decir, $\omega_1$ es la clase con
+        mayor posterior.
+        \begin{align}
+            P(\omega_1\given x)   &\ge P(\omega_j\given x) \qquad\forall j = 1,\ldots, c \\
+            \sum_{j=1}^c P(\omega_1\given x) &\ge \sum_{j=1}^c P(\omega_j\given x) \\
+            c P(\omega_1\given x) &\ge 1 \\
+            P(\omega_1\given x) &\ge 1/c 
+        \end{align}
+
     \item \pregunta{Muestre que el mínimo error de clasificación está acotado por $(c - 1)/c$.}
+        \begin{align}
+            P(\text{error}) &= 1 - P(\text{correct}) \\
+                &= 1 - \int_{\R^d} P(\text{correct}\given x)\,p(x)\,dx \\
+                &= 1 - \int_{\R^d} \max_j \bigl\{ P(\omega_j\given x)\bigr\}\,p(x)\,dx \\
+                &= 1 - \int_{\R^d} P(\omega_1\given x)\,p(x)\,dx \\
+                &\le 1 - \frac{1}{c} \int_{\R^d} p(x)\,dx \\
+                &= 1 - 1/c = (c - 1)/c
+        \end{align}
+
     \item \pregunta{Describa la situación para la cual la cota anterior es una igualdad.}
+
+        La igualdad se obtiene cuando $P(\text{correct}) = 1/c$.  Esto ocurre cuando
+        $P(\omega_1\given x) = 1/c$, ya que la regla de decisión asigna siempre a $\omega_1$.
+
+        Nuevamente sin pérdida de generalidad, supongamos que $P(\omega_2\given x_0)\ge
+        P(\omega_i\given x_0)$ para todo $j = 2, \cdots, c$, en un punto $x = x_0$ en el espacio de
+        características:
+        \begin{align}
+                \frac{c - 1}{c} = \sum_{j=2}^c P(\omega_j\given x_0) 
+                &\le (c - 1)\,P(\omega_2\given x_0) \le (c - 1)\,P(\omega_1\given x_0) \\
+                \frac{1}{c} &\le P(\omega_2\given x_0) \le \frac{1}{c} \\
+                P(\omega_2\given x_0) &= \frac{1}{c}
+        \end{align}
+        El argumento no depende de la elección de $x_0$ y se puede repetir para $j = 3,\ldots, c$.
+        Luego, en esta situación todas las clases tienen la misma posterior, igual a $1/c$.
 \end{enumerate}
 
 \section*{Pregunta 2}
 \pregunta{
+    Sea $p(x\given\omega_j)\sim N(\mu, \Sigma)$, $i = 1, 2$, la verosimilitud correspondiente a cada
+    una de las clases de un problema de clasificación $d$-dimensional con las mismas matrices de
+    covarianza pero con medias y a prioris arbitrarios.  Defina la distancia de Mahalanobis, $r_i$,
+    mediante $r_i^2 = (x - \mu_j)^T \Sigma^{-1} (x - \mu)$.
 }
+\begin{enumerate}
+    \item \pregunta{Muestre que en cualquier punto de la línea que une $\mu_1$ con $\mu_2$, los
+        gradientes $\nabla r_1^2$ y $\nabla r_2^2$ apuntan en direcciones opuestas.}
+
+    \item \pregunta{Muestre que el hiperplano separador óptimo es tangente a los hiperelipsoides de
+        densidad de probabilidad constante en el punto en que dicho hiperplano corta la línea que une 
+        $\mu_1$ con $\mu_2$.}
+
+    \item \pregunta{Verdadero o falso: ``la frontera de decisión de un clasificador bayesiano
+        corresponde en este problema al conjunto de puntos de igual distancia de Mahalanobis desde
+        las respectivas medias''.  Justifique.}
+\end{enumerate}
 
 \section*{Pregunta 3}
-\pregunta{
-}
+\pregunta{Considere un problema de clasificación binario con a prioris idénticos. Demuestre
+    formalmente que el error de un clasificador bayesiano decrece (o no aumenta) si aumentamos el
+    número de dimensiones del vector de características $x$.  Esto significa que no podemos reducir
+    el error proyectando a un subespacio de menor dimensión.  Aun con este resultado en mano,
+    explique por qué no es conveniente aumentar sin límites el número de características.}
+
 
 \end{document}
