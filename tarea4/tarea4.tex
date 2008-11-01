@@ -77,13 +77,52 @@
     \item \pregunta{Muestre que en cualquier punto de la línea que une $\mu_1$ con $\mu_2$, los
         gradientes $\nabla r_1^2$ y $\nabla r_2^2$ apuntan en direcciones opuestas.}
 
+        Usando las identidades $\nabla(y^T x) = y$ y $\nabla(x^T Ax) = 2Ax$, para $A$ simétrica, se
+        tiene:
+        \begin{align}
+            \nabla r_j^2 &= \nabla (x^T\Sigma^{-1}x - 2\mu_j^T\Sigma^{-1}x + \mu_j^T\Sigma^{-1}\mu_j) \\
+                         &= 2\Sigma^{-1}x - 2\Sigma^{-1}\mu_ j \\
+                         &= 2\Sigma^{-1} (x - \mu_j)
+        \end{align}
+        La línea que une $\mu_1$ y $\mu_2$ se puede parametrizar como $x = t\mu_1 + (1 - t)\mu_2$,
+        con $0\le t\le 1$.  Evaluando para ambas clases:
+        \begin{align}
+            \nabla r_1^2\bigl(t\mu_1 + (1 - t)\mu_2\bigr)
+                &= 2\Sigma^{-1}\bigl(t\mu_1 + (1 - t)\mu_2 - \mu_1)\bigr) \\
+                &= 2 (1 - t)\Sigma^{-1} (\mu_2 - \mu_1) \\
+            \nabla r_2^2\bigl(t\mu_1 + (1 - t)\mu_2\bigr)
+                &= 2\Sigma^{-1}\bigl(t\mu_1 + (1 - t)\mu_2 - \mu_1)\bigr) \\
+                &= -2t\Sigma^{-1} (\mu_2 - \mu_1)
+        \end{align}
+        Como $t$ y $(1 - t)$ son positivos, ambos gradientes apuntan en direcciones opuestas.
+
     \item \pregunta{Muestre que el hiperplano separador óptimo es tangente a los hiperelipsoides de
         densidad de probabilidad constante en el punto en que dicho hiperplano corta la línea que une 
         $\mu_1$ con $\mu_2$.}
 
+        Los hiperelipsoides de densidad de probabilidad constante son superficies de nivel de la
+        función $r_j^2 = (x - \mu_j)^T \Sigma^{-1} (x - \mu_j)$ [Duda, \S2.5.2].  El vector normal a
+        estas superficies es el gradiente $\nabla r_j^2$.  Del desarrollo anterior, sabemos que $\nabla
+        r_j^2$ es proporcional a $\Sigma^{-1}(\mu_2 - \mu_1)$ sobre la línea que une las medias,
+        para $j = 1$ y $j = 2$.
+
+        La ecuación del hiperplano separador es $\bigl(\Sigma^{-1}(\mu_1 - \mu_2)\bigr)^T(x - x_0) = 0$
+        [Duda, \S2.6.2, eqs.~61 y 62],
+        donde $x_0$ es el punto de intersección con la línea que une las medias.
+        El vector normal al plano es $\Sigma^{-1}(\mu_1 - \mu_2)$, como se ve directamente en la
+        ecuación, y por lo tanto es paralelo a $\nabla r_j^2$ en $x_0$.
+
+        Por lo tanto, el plano separador es tangente a los elipsoides de nivel de
+        $p(x\given\omega_j)$ en $x_0$.
+
     \item \pregunta{Verdadero o falso: ``la frontera de decisión de un clasificador bayesiano
         corresponde en este problema al conjunto de puntos de igual distancia de Mahalanobis desde
         las respectivas medias''.  Justifique.}
+
+        En el caso general, la frontera de decisión depende de las probabilidades a priori.  La
+        distancia de Mahalanobis sólo es función de la verosimilitud (geometría de los clústers),
+        por lo que no puede determinar unívocamente la frontera de decisión;  por lo tanto, la
+        proposición es falsa.
 \end{enumerate}
 
 \section*{Pregunta 3}
