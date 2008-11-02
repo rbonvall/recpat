@@ -10,8 +10,9 @@
 \usepackage{graphicx}
 
 \newcommand{\pregunta}{\textit}
+\newcommand{\card}[1]{\lvert#1\rvert}
 
-\title{Reconocimiento de Patrones \\ Tarea 3}
+\title{Reconocimiento de Patrones---Tarea 3}
 \author{Roberto Bonvallet \\ \url {<rbonvall@gmail.com>}}
 \date{Agosto de 2008}
 
@@ -26,10 +27,20 @@
 }
 
 \section*{Pregunta 2}
-\pregunta{
-    Estudiar las diferentes linkage métricas para dos clústers:
-    single link, complete link, centroid link, average group link.
-}
+\pregunta{Estudiar las diferentes linkage métricas para dos clústers:}
+\begin{itemize}
+    \item \pregunta{single link:} la distancia entre el par de elementos más cercano de los
+        clústers:
+        \[d(C_1, C_2) = \min_{C_1\times C_2}\bigl\{d(x_1, x_2)\bigr\}.\]
+    \item \pregunta{complete link:} la distancia entre el par de elementos más lejanos de los
+        clústers:
+        \[d(C_1, C_2) = \max_{C_1\times C_2}\bigl\{d(x_1, x_2)\bigr\}.\]
+    \item \pregunta{centroid link:} la distancia entre los centroides de los clústers:
+        \[d(C_1, C_2) = d\left(\frac{1}{\card{C_1}}\sum_{C_1} x_1, \frac{1}{\card{C_2}}\sum_{C_2} x_2\right).\]
+    \item \pregunta{average link:} el promedio de las distancias entre todos los pares de elementos
+        de los clústers:
+        \[d(C_1, C_2) = \frac{1}{\card{C_1}\card{C_2}}\sum_{C_1\times C_2} d(x_1, x_2).\]
+\end{itemize}
 
 \section*{Pregunta 3}
 \pregunta{
