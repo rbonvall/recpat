@@ -5,12 +5,16 @@
 \usepackage{fullpage}
 \usepackage{url}
 \usepackage{palatino}
+\usepackage{mathpazo}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
 
 \newcommand{\pregunta}{\textit}
+\newcommand{\given}{\vert}
 \newcommand{\card}[1]{\lvert#1\rvert}
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\norm}[1]{\lVert#1\rVert}
 
 \title{Reconocimiento de Patrones---Tarea 3}
 \author{Roberto Bonvallet \\ \url {<rbonvall@gmail.com>}}
@@ -25,6 +29,8 @@
     ¿Son estos conceptos equivalentes?
     Justifique usando algunos ejemplos.
 }
+
+
 
 \section*{Pregunta 2}
 \pregunta{Estudiar las diferentes linkage métricas para dos clústers:}
@@ -43,19 +49,77 @@
 \end{itemize}
 
 \section*{Pregunta 3}
-\pregunta{
-    Proponer medidas de similaridad para las siguientes representaciones:
+\pregunta{Proponer medidas de similaridad para las siguientes representaciones:}
     \begin{itemize}
-        \item datos cuantitativos
-            (señales ECG, matrices, funciones, tensores, imágenes digitales, etc.),
-        \item datos categóricos
-            (documentos, libros, símbolos, jeroglíficos, etc.)
+        \item \pregunta{datos cuantitativos
+            (señales ECG, matrices, funciones, tensores, imágenes digitales, etc.),}
+
+            Para señales continuas, distancias típicas son las métricas de Minkowski y
+            del supremo:
+            \begin{align}
+                d_{\text{(Mink)}}(x, y)^p &= \int\bigl\lvert x(t) - y(t)\bigr\rvert^{p}\,dt; &
+                d_{\text{(sup)}}(x, y) &= \sup_t \Bigl\{\bigl\lvert x(t) - y(t)\bigr\rvert\Bigr\}.
+            \end{align}
+            Estas métricas tienen sus equivalentes en el caso discreto:
+            \begin{align}
+                d_{\text{(Mink)}}(x, y)^p &= \sum_k \abs{x_k - y_k}^p; &
+                d_{\text{(sup)}}(x, y) &= \max_k\bigl\{\abs{x_k - y_k}\bigr\}.
+            \end{align}
+            Estas distancias se pueden adaptar para considerar sólo características de interéde
+            interés de la
+            señal, como bandas específicas en el espacio de frecuencias, o escalas en un análisis
+            multiresolución:
+            \begin{align}
+                d_{\text{(F)}}(x, y)^p   &= 
+                    \sum_{\text{frecs. $f$ de interés}} \abs{X_f - Y_f}^p \\
+                d_{\text{(MRA)}}(x, y)^p &= 
+                    \sum_{\text{escalas $s$ de interés}}
+                    \bigl\lvert\langle f - g, \psi_s \rangle\,\psi_s \bigr\rvert^p
+            \end{align}
+
+        \item \pregunta{datos categóricos
+            (documentos, libros, símbolos, jeroglíficos, etc.)}
+
+            Documentos y libros se pueden representar como vectores de pesos, en que cada componente
+            está asociado a una palabra $k_i$, y está relacionado con la frecuencia con que aparece en el
+            texto:
+            \begin{equation}
+                \text{documento $d$} = (w_1, \ldots, w_t)
+            \end{equation}
+            Bajo esta representación, se puede utilizar la correlación estadística como medida de
+            similaridad entre documentos:
+            \begin{equation}
+                \text{sim}(d_1, d_2) = \frac{d_1\cdot d_2}{\norm{d_1}\norm{d_2}}
+            \end{equation}
+            Para asignar los pesos, se puede utilizar el esquema tf-idf:  $w_i =
+            \text{tf}_{i,d}\cdot\text{idf}_i$, donde tf es 
+
+
     \end{itemize}
-}
 
 \section*{Pregunta 4}
-\pregunta{
-    Proponer medidas de similaridad para mezclas de datos.
-}
+\pregunta{Proponer medidas de similaridad para mezclas de datos.}
+
+Una opción para medir similiaridad entre mezclas de datos cuantitativos y categóricos es crear
+categorías para los datos cuantitativos, p.ej. $x\in C_k\iff A_k\leq x\leq A_{k+1}$, y utilizar
+medidas para datos categóricos.  El problema con este enfoque es que se pierde información
+inherente a la naturaleza cuantitativa de los datos, como las relaciones de orden.
+
+La métrica de Minkowski se puede adaptar para mezclas de datos reemplazando $\abs{x_k - y_k}$ por
+una expresión que represente la distancia a lo largo de una dimensión, adaptada para datos
+categóricos.  Por ejemplo, la métrica de diferencia de valor (VDM)~\footnotemark utiliza la
+expresión para la $j$-ésima componente en problemas de clasificación:
+\begin{equation}
+    d_j(y, z) = \sum_{s}\bigl\lvert P(\omega_s\given x_j = y_j) -
+                                    P(\omega_s\given x_j = z_j)\bigr\rvert,
+\end{equation}
+donde las probabilidades se pueden estimar a partir de las frecuencias en los datos de
+entrenamiento.
+\footnotetext{Lars Haendel. \textit{The \textsc{Pnc2} Cluster Algorithm}. Tesis doctoral, Universidad
+de Dortmund, 2003.}
+
+%\footnotetex{Michael Berthold. \textit{Mixed fuzzy rule formation}.  International Journal of
+%Approximate Reasoning 32~(2003) 67--84.
+
 
 \end{document}
