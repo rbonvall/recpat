@@ -10,7 +10,7 @@
 \usepackage{graphicx}
 
 
-\title{Reconocimiento de Patrones \\
+\title{MII-xxx/INF-391 Reconocimiento de Patrones \\
     Discusión del artículo \textit{Similarity~Measures}}
 \author{Roberto Bonvallet \\ \url {<rbonvall@gmail.com>}}
 \date{Agosto de 2008}
@@ -18,8 +18,39 @@
 \begin{document}
 \maketitle
 
+\section{Resumen}
+El artículo \textit{Similarity Measures}~\cite{sim} aborda el problema de medir
+disimilaridades en espacios de características, desde el punto de vista de los
+requerimientos de un sistema de recuperación de información.
 
-\section{Introducción}
+
+Cuatro modelos axiomáticos son presentados en el artículo:
+\begin{itemize}
+    \item los axiomas métricos,
+    \item la estructura de proximidad monótona,
+    \item el modelo de contraste de características (FCM), y
+    \item el FCM difuso con dependencia de características.
+\end{itemize}
+
+
+\section{Similaridad y recuperación de información}
+
+\begin{itemize}
+    \item recuperar elementos de una base de datos que son descripciones incompletas o esbozos de los
+        elementos buscados;
+    \item correlación con la similaritud perceptual.
+    \item importancia de las características por separado.
+    \item relevancia empíricamente observable
+    \item comparación consulta-resultado en vez de punto-punto
+\end{itemize}
+
+
+
+\section{Modelos presentados}
+\subsection{M
+
+
+
 
 
 % set members for next example
@@ -35,31 +66,29 @@
     C &=          \{\SMA,  \SMB,  \SMC\phantom{, \SMD,          \SME}\} \\
 \end{align*}
 
-\begin{figure}
+\begin{figure}[t]
   \centering
   \includegraphics[bb=0 0 513 166]{imagenes/dom-cons-trans.png}
   % dom-cons-trans.png: 641x208 pixel, 90dpi, 18.09x5.87 cm, bb=0 0 513 166
-  \caption{%
+  \caption{\small %
     Ejemplos de las propiedades de un espacio con estructura de proximidad
     monótona. Las líneas con flechas representan distancias entre puntos del
     espacio de características.
-    (a) Dominancia: distancia diagonal es mayor que cada una de las distancias
-        a lo largo de las dimensiones.
+    (a) Dominancia: distancia diagonal es mayor que a lo largo de cada eje.
     (b) Consistencia: las relaciones de orden a lo largo de una dimensión son
         independientes de otras dimensiones.
     (c) Transitividad: relaciones de orden traslapadas fuerzan las mismas
         relaciones entre los puntos en la región de traslape.
-        los puntos de la región de traslape.
   }
   \label{fig:cons-dom-trans}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[t]
   \centering
   \includegraphics[bb=0 0 374 125]{imagenes/esquina.png}
   % esquina.png: 467x156 pixel, 90dpi, 13.18x4.40 cm, bb=0 0 374 125
   \label{fig:esquina}
-  \caption{%
+  \caption{\small %
     Comparación entre la desigualdad de esquina y la desigualdad
     triangular.  La desigualdad triangular compara la distancias directa con
     la distancia a lo largo de dimensiones entre dos puntos.  La desigualdad de
@@ -68,5 +97,20 @@
   }
 \end{figure}
 
+
+
+
+%\begin{thebibliography}{1}
+\begin{thebibliography}{99}
+    \bibitem{sim}
+        Simone Santini, Ramesh Jain.
+        \emph{Similarity Measures.}
+        IEEE Trans.~on Pattern Analysis and Machine Inteligence.
+        Vol.~21, No.~9, September~1999.
+    \bibitem{shepard}
+        Roger~{}N.~Shepard.
+        \emph{Toward a Universal Law of Generalization for Physical Science.}
+        Science, vol.~237, pp.~1317--1323, 1987.
+\end{thebibliography}
 
 \end{document}
