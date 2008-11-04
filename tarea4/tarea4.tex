@@ -133,4 +133,24 @@
     explique por qué no es conveniente aumentar sin límites el número de características.}
 
 
+   En general, nunca es buena idea aumentar indiscriminadamente el número de dimensiones, por los
+   efectos indeseables que esto acarrea:
+   \begin{itemize}
+       \item \emph{maldición de la dimensionalidad:} el volumen del dominio aumenta exponencialmente
+           con el número de dimensiones, lo que hace que puntos cercanos se alejen al aumentar las
+           dimensiones, y que sean necesarias muestras mucho más grandes para cubrir una parte del
+           espacio;  un efecto poco intutivo de esto es que el volumen de la hiperesfera unitaria se
+           hace insignificante con respecto al del hipercubo unitario, por lo que la mayoría de los
+           puntos del hipercubo quedan lejos del centro;
+       \item el número de elementos de las matrices crece cuadráticamente respecto al número de
+           dimensiones, por lo que los algoritmos pueden volverse prohibitivos en uso de recursos
+           computacionales y de tiempo;
+       \item \emph{principio de parsimonia:} en general los modelos más simples son preferibles a
+           los complicados;
+       \item agregar más características no hace que ellas sean significativas en el resultado de la
+           clasificación: pueden ser totalmente irrelevantes o su aporte puede estar correlacionado
+           con el que hacen otras características de mayor peso;
+       \item como consecuencia de lo anterior, agregar dimensiones dependientes de otras puede
+           introducir singularidades o mal condicionamiento en las ecuaciones que definen el modelo.
+   \end{itemize}
 \end{document}

@@ -10,8 +10,7 @@
 \usepackage{graphicx}
 
 
-\title{MII-xxx/INF-391 Reconocimiento de Patrones \\
-    Discusión del artículo \textit{Similarity~Measures}}
+\title{Reconocimiento de Patrones---Discusión del artículo \textit{Similarity~Measures}}
 \author{Roberto Bonvallet \\ \url {<rbonvall@gmail.com>}}
 \date{Agosto de 2008}
 
@@ -24,20 +23,52 @@ disimilaridades en espacios de características, desde el punto de vista de los
 requerimientos de un sistema de recuperación de información.
 
 
-Cuatro modelos axiomáticos son presentados en el artículo:
-\begin{itemize}
-    \item los axiomas métricos,
-    \item la estructura de proximidad monótona,
-    \item el modelo de contraste de características (FCM), y
-    \item el FCM difuso con dependencia de características.
-\end{itemize}
+\section{Modelos axiomáticos presentados en el artículo}
+\subsection{Axiomas métricos}
+
+\begin{description}
+    \item [autosimilaridad constante:]
+        $d(A, A) = d(B, B)$;
+    \item [minimalidad:]
+        $d(A, B)\ge d(A, A)$;
+    \item [simetría:]
+        $d(A, B) = d(B, A)$;
+    \item [desigualdad triangular:]
+        $d(A, B) + d(B, C)\ge d(A, C)$.
+\end{description}
+Muchos modelos de similaridad suponen que el espacio subyacente cumple con estos axiomas,
+
+
+
+\subsection{Estructura de proximidad monótona}
+\begin{description}
+    \item [dominancia:]
+        análoga a la desigualdad triangular, pero a lo largo de los ejes;
+    \item [consistencia:]
+        el orden a lo largo de una dimensión es independiente de otras
+        dimensiones;
+    \item [transitividad:]
+        traslapes de trios ordenados inducen un orden más general;
+    \item [desigualdad de esquina;]
+\end{description}
+
+
+\subsection{Modelo de contraste de características (FCM)}
+\begin{description}
+    \item [calce:]
+    \item [monotonía:]
+    \item [independencia:]
+\end{description}
+
+\subsection{FCM difuso con dependencia de características}
 
 
 \section{Similaridad y recuperación de información}
 
+
 \begin{itemize}
-    \item recuperar elementos de una base de datos que son descripciones incompletas o esbozos de los
-        elementos buscados;
+    \item recuperar elementos de una base de datos que son descripciones
+        incompletas o esbozos de los elementos buscados;
     \item correlación con la similaritud perceptual.
     \item importancia de las características por separado.
     \item relevancia empíricamente observable
@@ -47,7 +78,7 @@ Cuatro modelos axiomáticos son presentados en el artículo:
 
 
 \section{Modelos presentados}
-\subsection{M
+\subsection{Métricos}
 
 
 
