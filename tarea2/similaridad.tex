@@ -5,6 +5,7 @@
 \usepackage{fullpage}
 \usepackage{url}
 \usepackage{palatino}
+\usepackage{mathpazo}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
@@ -24,8 +25,8 @@ requerimientos de un sistema de recuperación de información.
 
 
 \section{Modelos axiomáticos presentados en el artículo}
-\subsection{Axiomas métricos}
 
+\subsection{Axiomas métricos}
 \begin{description}
     \item [autosimilaridad constante:]
         $d(A, A) = d(B, B)$;
@@ -37,10 +38,23 @@ requerimientos de un sistema de recuperación de información.
         $d(A, B) + d(B, C)\ge d(A, C)$.
 \end{description}
 Muchos modelos de similaridad suponen que el espacio subyacente cumple con estos axiomas,
+pero su validez es cuestionada por dos motivos:
+\begin{itemize}
+    \item experimentos de percepción humana arrojan resultados
+        inconsistentes con el modelo euclideano de distancia;
+    \item la desigualdad triangular no es verificable experimentalmente,
+        pues no se traduce en una propiedad similar para la similaridad juzgada.
+\end{itemize}
+
+
 
 
 
 \subsection{Estructura de proximidad monótona}
+La estructura de proximidad monótona es un modelo diseñado para ser verificable experimentalmente.
+Esto se logra imponiendo propiedades ordinales, que no se ven afectadas por una función de
+generalización monótona.  Este modelo es más general y menos restrictivo que el métrico, y otorga
+más importancia al cumplimiento de propiedades a lo largo de los ejes.  Las propiedades son:
 \begin{description}
     \item [dominancia:]
         análoga a la desigualdad triangular, pero a lo largo de los ejes;
@@ -48,22 +62,46 @@ Muchos modelos de similaridad suponen que el espacio subyacente cumple con estos
         el orden a lo largo de una dimensión es independiente de otras
         dimensiones;
     \item [transitividad:]
-        traslapes de trios ordenados inducen un orden más general;
+        traslapes de trios ordenados a lo largo de una dimensión inducen un orden más general;
     \item [desigualdad de esquina;]
 \end{description}
 
 
-\subsection{Modelo de contraste de características (FCM)}
+
+\subsection{Modelo de contraste de características}
+En el modelo de contraste de características~(FCM) los estímulos son representados por un conjunto
+de características binarias.
 \begin{description}
-    \item [calce:]
-    \item [monotonía:]
+    \item [calce:] la similaridad tiene la forma $s(a, b) = F(A\cap B, A-B, B-A)$;
+    \item [monotonía:] la similaridad está influenciada por el traslape de características comunes;
     \item [independencia:]
 \end{description}
+Un resultado importante acerca este modelo es el teorema de representación: si una función de
+similaridad $s$ satisface las tres propiedades, existe una función de similaridad $S$ de la forma
+$S(a, b) = f(A\cap B) - \alpha f(A-B) - \beta f(B-A)$, que es equivalente a $s$ en el sentido que
+preserva el orden entre pares de estímulos.  
 
 \subsection{FCM difuso con dependencia de características}
+El FCM difuso es una extensión del FCM en que las características binarias (que un estímulo puede
+tener o no) son reemplazadas por un conjunto de predicados difusos, cada uno de los cuales el
+estímulo satisface en cierta medida $\mu_i$.  Esta extensión permite la incorporación de
+características numéricas.
+
+Tras definiciones apropiadas de los operadores difusos de intersección y diferencia de conjuntos,
+la función de similaridad de Tversky se define como:
+\begin{align}
+    S(\phi, \psi) = \sum_i\bigl(\mu_\cap (\phi_i, \psi_i) -
+                          \alpha\mu_-  (\phi_i, \psi_i)   -
+                          \beta \mu_-  (\psi_i, \phi_i)\bigr)
+\end{align}
+
+...
 
 
-\section{Similaridad y recuperación de información}
+
+
+\section{Medidas de similaridad y recuperación de información}
+Del artículo es posible rescatar varios criterios que 
 
 
 \begin{itemize}
