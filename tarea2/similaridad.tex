@@ -10,10 +10,19 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 
+\newcommand{\choquet}{\mathcal{C}\mspace{-18mu}\int}
 
-\title{Reconocimiento de Patrones---Discusión del artículo \textit{Similarity~Measures}}
+% set members for example
+\newcommand{\SMA}{\square}
+\newcommand{\SMB}{\spadesuit}
+\newcommand{\SMC}{\heartsuit}
+\newcommand{\SMD}{\clubsuit}
+\newcommand{\SME}{\diamondsuit}
+
+
+\title{Reconocimiento de Patrones\\Discusión del artículo \textit{Similarity~Measures}}
 \author{Roberto Bonvallet \\ \url {<rbonvall@gmail.com>}}
-\date{Agosto de 2008}
+\date{Noviembre de 2008}
 
 \begin{document}
 \maketitle
@@ -25,8 +34,20 @@ requerimientos de un sistema de recuperación de información.
 
 
 \section{Modelos axiomáticos presentados en el artículo}
+El artículo presenta cuatro modelos axiomáticos de similaridad, los que son caracterizados por 
+la representación de los estímulos y por las propiedades que cumplen las funciones de similaridad.
+Estas propiedades están definidas en el espacio de características y no en un espacio psicológico,
+por lo tanto no son necesariamente verificables a través de experimentos.
+
+La relación entre un espacio sicológico y un espacio de características está dada por una ley de
+generalización.  El criterio que debe satisfacer una ley de generalización es que la probabilidad
+que un estímulo $S_i$ gatille una respuesta asociada a otro estímulo $S_j$ decaiga exponencialmente
+con respecto a la distancia en el espacio de características~\cite{shepard}.  En general, se supone
+que la distancia sicológica es $\delta = g\circ d$, donde $g$ es una función que satisface este
+criterio y se denomina función de generalización.
 
 \subsection{Axiomas métricos}
+
 \begin{description}
     \item [autosimilaridad constante:]
         $d(A, A) = d(B, B)$;
@@ -40,100 +61,124 @@ requerimientos de un sistema de recuperación de información.
 Muchos modelos de similaridad suponen que el espacio subyacente cumple con estos axiomas,
 pero su validez es cuestionada por dos motivos:
 \begin{itemize}
-    \item experimentos de percepción humana arrojan resultados
-        inconsistentes con el modelo euclideano de distancia;
+    \item experimentos de percepción humana han arrojado resultados
+        inconsistentes con el modelo; y
     \item la desigualdad triangular no es verificable experimentalmente,
         pues no se traduce en una propiedad similar para la similaridad juzgada.
 \end{itemize}
 
 
-
-
-
 \subsection{Estructura de proximidad monótona}
 La estructura de proximidad monótona es un modelo diseñado para ser verificable experimentalmente.
-Esto se logra imponiendo propiedades ordinales, que no se ven afectadas por una función de
-generalización monótona.  Este modelo es más general y menos restrictivo que el métrico, y otorga
+Esto se logra imponiendo propiedades ordinales, que no se ven afectadas por la función de
+generalización.  Este modelo es más general y menos restrictivo que el métrico, y otorga
 más importancia al cumplimiento de propiedades a lo largo de los ejes.  Las propiedades son:
 \begin{description}
-    \item [dominancia:]
-        análoga a la desigualdad triangular, pero a lo largo de los ejes;
-    \item [consistencia:]
-        el orden a lo largo de una dimensión es independiente de otras
-        dimensiones;
-    \item [transitividad:]
-        traslapes de trios ordenados a lo largo de una dimensión inducen un orden más general;
-    \item [desigualdad de esquina;]
+    \item [Dominancia:]
+        análoga a la desigualdad triangular, pero a lo largo de los ejes.
+    \item [Consistencia:]
+        el orden a lo largo de una dimensión es independiente de otras dimensiones.
+    \item [Transitividad:]
+        traslapes de trios ordenados a lo largo de una dimensión inducen un orden más general.
+    \item [Desigualdad de esquina;]
 \end{description}
 
 
 
 \subsection{Modelo de contraste de características}
-En el modelo de contraste de características~(FCM) los estímulos son representados por un conjunto
-de características binarias.
+En el modelo de contraste de características~(FCM), el espacio de características está formado por
+conjuntos de características binarias, que un estímulo puede tener o no.
 \begin{description}
-    \item [calce:] la similaridad tiene la forma $s(a, b) = F(A\cap B, A-B, B-A)$;
-    \item [monotonía:] la similaridad está influenciada por el traslape de características comunes;
-    \item [independencia:]
+    \item [Calce:] la similaridad tiene la forma $s(a, b) = F(A\cap B, A-B, B-A)$.
+    \item [Monotonía:] la similaridad está influenciada por el traslape de características comunes;
+        por ejemplo, en el siguiente ejemplo $A$ se parece más a $B$ que a $C$.
+        \begin{align*}
+            A &= \{\phantom{\SMA,  \SMB,} \SMC,          \SMD,          \SME\}  \\
+            B &= \{\phantom{\SMA,} \SMB,  \SMC,          \SMD\phantom{, \SME}\} \\
+            C &=          \{\SMA,  \SMB,  \SMC\phantom{, \SMD,          \SME}\}
+        \end{align*}
+    \item [Independencia:]
 \end{description}
 Un resultado importante acerca este modelo es el teorema de representación: si una función de
 similaridad $s$ satisface las tres propiedades, existe una función de similaridad $S$ de la forma
 $S(a, b) = f(A\cap B) - \alpha f(A-B) - \beta f(B-A)$, que es equivalente a $s$ en el sentido que
-preserva el orden entre pares de estímulos.  
+preserva el orden entre pares de estímulos.  La función $f$ se denomina la \emph{saliencia} de un
+estímulo.
+
 
 \subsection{FCM difuso con dependencia de características}
 El FCM difuso es una extensión del FCM en que las características binarias (que un estímulo puede
 tener o no) son reemplazadas por un conjunto de predicados difusos, cada uno de los cuales el
-estímulo satisface en cierta medida $\mu_i$.  Esta extensión permite la incorporación de
+estímulo satisface en cierta medida $\mu_i$.  La representación de un estímulo es el conjunto
+ordenado $\mu = \{\mu_1, \ldots, \mu_n\}$.  Esta extensión permite la incorporación de
 características numéricas.
 
-Tras definiciones apropiadas de los operadores difusos de intersección y diferencia de conjuntos,
-la función de similaridad de Tversky se define como:
-\begin{align}
+Un resultado similar al teorema de representación se cumple en el caso difuso, como se demuestra en
+el artículo.  Tras definiciones apropiadas de los operadores difusos de intersección y diferencia de
+conjuntos, $\mu_\cap$ y $\mu_-$, la función de similaridad de Tversky se define como:
+\begin{equation}
     S(\phi, \psi) = \sum_i\bigl(\mu_\cap (\phi_i, \psi_i) -
                           \alpha\mu_-  (\phi_i, \psi_i)   -
-                          \beta \mu_-  (\psi_i, \phi_i)\bigr)
-\end{align}
+                          \beta \mu_-  (\psi_i, \phi_i)\bigr),
+\end{equation}
+en la que se ha utilizado la cardinalidad $\#\mu = \sum_i\mu_i$ como función de saliencia.
 
-...
+En el artículo, los autores proponen una extensión del modelo para dar cuenta de la
+interacción de características, de modo que el grado de verdad de una característica pueda afectar
+la medida del conjunto completo de características.  La saliencia $f(\mu) = \#\mu$ es
+generalizada en la forma de una integral de Choquet:
+\begin{equation}\label{choquet}
+    f(\mu) = \sum_i\mu_i = \sum_i\mu_{(i)}
+           = \sum_i \bigl(\mu_{(i)} - \mu_{(i-1)}\bigr)
+             \underbrace{\frac{n-i+1}{n}}_{m(\{\mu_{(i)}\})}
+           = \choquet \mu\;m,
+\end{equation}
+donde $m: 2^\mu\to{}[0, 1]$ es una medida del aporte a la saliencia total de un subconjunto de
+características, y que en general debe satifacer
+$m(\varnothing)=0$,
+$m(\mu)=1$ y
+$m(A\subseteq B)\leq m(B)$.  En el caso particular de la ecuación~\ref{choquet}, $m$ además es aditiva y
+equidistribuida.
 
+La dependencia entre dos características $x_h$ y $x_k$ es modelada alterando la aditividad de $m$
+con un término adicional:
+\begin{equation}
+    m\bigl(\{x_h, x_k\}\bigr) =
+    m\bigl(\{x_h\}\bigr) +
+    m\bigl(\{x_k\}\bigr) +
+    \gamma_{hk} m\bigl(\{x_h\}\bigr) m\bigl(\{x_k\}\bigr),\qquad\gamma_{hk}\ge0.
+\end{equation}
+Los coeficientes $\gamma_{i_{j_1}\ldots i_{j_p}}$ caracterizan unívocamente la medida, 
+y deben ser determinados experimentalmente.  Además, deben satisfacer las propiedades para que $m$
+sea una medida válida.
+
+Dada una medida $m$ que incorpora las dependencias, la similaridad de Tversky en el modelo extendido
+se define como:
+\begin{equation}
+    S(\phi, \psi) = \choquet\bigl(\mu_\cap (\phi, \psi) -
+                            \alpha\mu_-  (\phi, \psi)   -
+                            \beta \mu_-  (\psi, \phi)\bigr)\;m.
+\end{equation}
 
 
 
 \section{Medidas de similaridad y recuperación de información}
-Del artículo es posible rescatar varios criterios que 
+Del artículo se puede rescatar varios requerimientos y criterios que debe cumplir un sistema de
+recuperación de información, y que deben traducirse en propiedades de las medidas de similaridad
+escogidas.  Estas propiedades no son satisfechas por los axiomas métricos, y son el punto de partida
+en la exploración de alternativas.
 
+\subsection{Naturaleza incompleta de las consultas}
+El objetivo del sistema es recuperar elementos de una base de datos a partir de una consulta que es
+un modelo incompleto que describe características.  
 
-\begin{itemize}
-    \item recuperar elementos de una base de datos que son descripciones
-        incompletas o esbozos de los elementos buscados;
-    \item correlación con la similaritud perceptual.
-    \item importancia de las características por separado.
-    \item relevancia empíricamente observable
-    \item comparación consulta-resultado en vez de punto-punto
-\end{itemize}
+\subsection{Similaritud consulta-resultado en vez de punto-punto}
+\subsection{Correlación con la similaridad perceptual}
+\subsection{Relevancia de las características por separado}
+\subsection{Verificabilidad experimental}
 
+\section{Comparación entre los modelos}
 
-
-\section{Modelos presentados}
-\subsection{Métricos}
-
-
-
-
-
-% set members for next example
-\newcommand{\SMA}{\Box}
-\newcommand{\SMB}{\spadesuit}
-\newcommand{\SMC}{\heartsuit}
-\newcommand{\SMD}{\clubsuit}
-\newcommand{\SME}{\diamondsuit}
-
-\begin{align*}
-    A &= \{\phantom{\SMA,  \SMB,} \SMC,          \SMD,          \SME\}  \\
-    B &= \{\phantom{\SMA,} \SMB,  \SMC,          \SMD\phantom{, \SME}\} \\
-    C &=          \{\SMA,  \SMB,  \SMC\phantom{, \SMD,          \SME}\} \\
-\end{align*}
 
 \begin{figure}[t]
   \centering
