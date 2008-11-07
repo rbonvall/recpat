@@ -49,13 +49,13 @@ criterio y se denomina función de generalización.
 \subsection{Axiomas métricos}
 
 \begin{description}
-    \item [autosimilaridad constante:]
+    \item [Autosimilaridad constante:]
         $d(A, A) = d(B, B)$;
-    \item [minimalidad:]
+    \item [Minimalidad:]
         $d(A, B)\ge d(A, A)$;
-    \item [simetría:]
+    \item [Simetría:]
         $d(A, B) = d(B, A)$;
-    \item [desigualdad triangular:]
+    \item [Desigualdad triangular:]
         $d(A, B) + d(B, C)\ge d(A, C)$.
 \end{description}
 Muchos modelos de similaridad suponen que el espacio subyacente cumple con estos axiomas,
@@ -77,10 +77,16 @@ más importancia al cumplimiento de propiedades a lo largo de los ejes.  Las pro
     \item [Dominancia:]
         análoga a la desigualdad triangular, pero a lo largo de los ejes.
     \item [Consistencia:]
-        el orden a lo largo de una dimensión es independiente de otras dimensiones.
+        el orden a lo largo de una dimensión es independiente de otras
+        dimensiones.
     \item [Transitividad:]
-        traslapes de trios ordenados a lo largo de una dimensión inducen un orden más general.
-    \item [Desigualdad de esquina;]
+        traslapes de trios ordenados a lo largo de una dimensión inducen una
+        relación de orden entre los cuatro elementos involucrados.
+\end{description}
+Además, se propone una cuarta propiedad con el fin de discriminar modelos
+diferentes:
+\begin{description}
+    \item [Desigualdad de esquina:] la distancia a 
 \end{description}
 
 
@@ -97,7 +103,7 @@ conjuntos de características binarias, que un estímulo puede tener o no.
             B &= \{\phantom{\SMA,} \SMB,  \SMC,          \SMD\phantom{, \SME}\} \\
             C &=          \{\SMA,  \SMB,  \SMC\phantom{, \SMD,          \SME}\}
         \end{align*}
-    \item [Independencia:]
+    \item [Independencia:] 
 \end{description}
 Un resultado importante acerca este modelo es el teorema de representación: si una función de
 similaridad $s$ satisface las tres propiedades, existe una función de similaridad $S$ de la forma
@@ -168,14 +174,67 @@ recuperación de información, y que deben traducirse en propiedades de las medi
 escogidas.  Estas propiedades no son satisfechas por los axiomas métricos, y son el punto de partida
 en la exploración de alternativas.
 
-\subsection{Naturaleza incompleta de las consultas}
-El objetivo del sistema es recuperar elementos de una base de datos a partir de una consulta que es
-un modelo incompleto que describe características.  
+\subsection{Similaridad consulta-resultado en vez de punto-punto}
+Como las consultas y los resultados son representados como puntos en un
+mismo espacio de características, la medida de similaridad debe tomar en cuenta
+la naturaleza diferente de ambos elementos.  La consecuencia más importante de
+esto, y que resulta poco intuitiva en un comienzo, es la violación del axioma de
+simetría en un espacio métrico.  Este fenómeno es el que se denomina
+\emph{saliencia} de un estímulo, y tiene que ver con la manera en que se desea
+interpretar el estímulo: como una consulta (esbozo incompleto) o como un resultado.
 
-\subsection{Similaritud consulta-resultado en vez de punto-punto}
+Un ejemplo cotidiano es la relación que existe entre una búsqueda web, p.ej.
+Google, y la relevancia de los resultados obtenidos.  Si uno busca la palabra
+«perro», uno estaría satisfecho al obtener como resultado un artículo de mil
+palabras sobre «cuidados del perro».  Pero si uno utiliza como patrón de
+búsqueda el artículo entero, uno no esperaría obtener como respuesta simplemente
+la palabra «perro».
+
 \subsection{Correlación con la similaridad perceptual}
-\subsection{Relevancia de las características por separado}
+Una usuaria de un sistema de recuperación de información espera resultados
+que ella considera relevantes para la búsqueda que realizó.  El hecho que la
+similaridad sea medida en un espacio de características subyacente no es
+importante para ella.
+
+Los axiomas métricos fallan tanto experimentalmente como teóricamente en este
+sentido:  cada uno de ellos ha sido violado en experimentos de percepción, y la
+desigualdad triangular no es verificable bajo el supuesto de una ley de
+generalización monótona.
+
+Por otra parte, la estructura de proximidad monótona es un modelo diseñado para
+ser verificable por la vía experimental.  Además, el FCM difuso con dependencias
+tiene parámetros que deben ser determinados en experimentos.
+
 \subsection{Verificabilidad experimental}
+
+
+\subsection{Importancia del ordenamiento de los resultados}
+El principal rol de una medida de similaridad es imponer un ordenamiento de los
+resultados de acuerdo a su relevancia respecto a la consulta.  El valor preciso
+de la similaridad no es tan importante.
+
+Una ventaja práctica de esto es que permite simplificar modelos complicados,
+manteniendo como única condición que el orden sea conservado.  En el caso del
+modelo de contraste de características, esta propiedad se manifiesta en el
+teorema de representación, que permite introducir una nueva similaridad basada
+en la saliencia.
+
+\subsection{Relevancia de las características por separado}
+La noción de distancia en un espacio euclideano es esencialmente isotrópica: los
+ejes coordenados no tienen ninguna relevancia por sí solos.  La isotropía es
+consecuencia de los axiomas, y resulta ser una exigencia demasiado restrictiva
+para proponer medidas de similaridad alternativas.
+
+Perceptivamente, las características sí tienen importancia por sí
+solas, y direcciones arbitrarias en el espacio de características no tienen
+un significado inherente para una persona.  Los modelos presentados sí reflejan
+esta distinción.
+
+Por otra parte, si bien las características no se combinan arbitrariamente en el
+espacio, sí existen dependencias entre ellas.  El FCM difuso extendido da cuenta
+de estas dependencias de manera explícita en la función de similaridad, sin
+necesidad de imponer propiedades sobre el espacio de características.
+
 
 \section{Comparación entre los modelos}
 
