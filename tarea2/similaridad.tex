@@ -132,7 +132,8 @@ en la que se ha utilizado la cardinalidad $\#\mu = \sum_i\mu_i$ como función de
 En el artículo, los autores proponen una extensión del modelo para dar cuenta de la
 interacción de características, de modo que el grado de verdad de una característica pueda afectar
 la medida del conjunto completo de características.  La saliencia $f(\mu) = \#\mu$ es
-generalizada en la forma de una integral de Choquet:
+generalizada en la forma de una integral de Choquet~(ver
+figura~\ref{fig:choquet}):
 \begin{equation}\label{choquet}
     f(\mu) = \sum_i\mu_i = \sum_i\mu_{(i)}
            = \sum_i \bigl(\mu_{(i)} - \mu_{(i-1)}\bigr)
@@ -145,6 +146,26 @@ $m(\varnothing)=0$,
 $m(\mu)=1$ y
 $m(A\subseteq B)\leq m(B)$.  En el caso particular de la ecuación~\ref{choquet}, $m$ además es aditiva y
 equidistribuida.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics%
+      %[bb=0 0 374 125]
+      [width=0.8\textwidth]%
+      {imagenes/croquet.png}
+  % esquina.png: 467x156 pixel, 90dpi, 13.18x4.40 cm, bb=0 0 374 125
+  \label{fig:choquet}
+  \caption{\small %
+    A la izquierda, la saliencia de un estímulo vista como una integral de Choquet.
+    Las diferencias en grado de verdad entre características consecutivas
+    aportan a la saliencia en la medida del conjunto asociado.
+    A la derecha, el aporte a la saliencia al haber dependencias
+    está dada por el área punteada.  Según este modelo,
+    los predicados no son más o menos ciertos por la influencia de otras
+    características, sino que sólo cambia la medida en que aportan a la
+    saliencia total.
+  }
+\end{figure}
 
 La dependencia entre dos características $x_h$ y $x_k$ es modelada alterando la aditividad de $m$
 con un término adicional:
@@ -239,26 +260,26 @@ necesidad de imponer propiedades sobre el espacio de características.
 \section{Comparación entre los modelos}
 
 
-\begin{figure}[t]
-  \centering
-  \includegraphics[bb=0 0 513 166]{imagenes/dom-cons-trans.png}
-  % dom-cons-trans.png: 641x208 pixel, 90dpi, 18.09x5.87 cm, bb=0 0 513 166
-  \caption{\small %
-    Ejemplos de las propiedades de un espacio con estructura de proximidad
-    monótona. Las líneas con flechas representan distancias entre puntos del
-    espacio de características.
-    (a) Dominancia: distancia diagonal es mayor que a lo largo de cada eje.
-    (b) Consistencia: las relaciones de orden a lo largo de una dimensión son
-        independientes de otras dimensiones.
-    (c) Transitividad: relaciones de orden traslapadas fuerzan las mismas
-        relaciones entre los puntos en la región de traslape.
-  }
-  \label{fig:cons-dom-trans}
-\end{figure}
+%\begin{figure}[t]
+%  \centering
+%  \includegraphics[bb=0 0 513 166]{imagenes/dom-cons-trans.png}
+%  % dom-cons-trans.png: 641x208 pixel, 90dpi, 18.09x5.87 cm, bb=0 0 513 166
+%  \caption{\small %
+%    Ejemplos de las propiedades de un espacio con estructura de proximidad
+%    monótona. Las líneas con flechas representan distancias entre puntos del
+%    espacio de características.
+%    (a) Dominancia: distancia diagonal es mayor que a lo largo de cada eje.
+%    (b) Consistencia: las relaciones de orden a lo largo de una dimensión son
+%        independientes de otras dimensiones.
+%    (c) Transitividad: relaciones de orden traslapadas fuerzan las mismas
+%        relaciones entre los puntos en la región de traslape.
+%  }
+%  \label{fig:cons-dom-trans}
+%\end{figure}
 
 \begin{figure}[t]
   \centering
-  \includegraphics[bb=0 0 374 125]{imagenes/esquina.png}
+  \includegraphics[width=0.8\textwidth]{imagenes/esquina.png}
   % esquina.png: 467x156 pixel, 90dpi, 13.18x4.40 cm, bb=0 0 374 125
   \label{fig:esquina}
   \caption{\small %
@@ -270,21 +291,6 @@ necesidad de imponer propiedades sobre el espacio de características.
   }
 \end{figure}
 
-\begin{figure}[t]
-  \centering
-  \includegraphics%
-      %[bb=0 0 374 125]
-      {imagenes/croquet.png}
-  % esquina.png: 467x156 pixel, 90dpi, 13.18x4.40 cm, bb=0 0 374 125
-  \label{fig:croquet}
-  \caption{\small %
-    Comparación entre la desigualdad de esquina y la desigualdad
-    triangular.  La desigualdad triangular compara la distancias directa con
-    la distancia a lo largo de dimensiones entre dos puntos.  La desigualdad de
-    esquina sólo impone estas restricciones por tramos, pero deben cumplirse
-    para cualquier lugar de la zona sombreada donde esté el punto central.
-  }
-\end{figure}
 
 
 
