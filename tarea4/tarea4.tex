@@ -7,6 +7,7 @@
 \usepackage{palatino}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{cancel}
 \usepackage{graphicx}
 
 \newcommand{\pregunta}{\textit}
@@ -127,11 +128,42 @@
 
 \section*{Pregunta 3}
 \pregunta{Considere un problema de clasificación binario con a prioris idénticos. Demuestre
-    formalmente que el error de un clasificador bayesiano decrece (o no aumenta) si aumentamos el
+    %formalmente
+    que el error de un clasificador bayesiano decrece (o no aumenta) si aumentamos el
     número de dimensiones del vector de características $x$.  Esto significa que no podemos reducir
     el error proyectando a un subespacio de menor dimensión.  Aun con este resultado en mano,
     explique por qué no es conveniente aumentar sin límites el número de características.}
 
+    El error de un clasificador binario, con $P(\omega_1) = P(\omega_2) = 1/2$, está dado por:
+    \begin{align}
+        \text{Error}
+        &= \int_{\R^d} P(\text{error}\given x)\, p(x)\, dx \\
+        &= \int_{\R^d} \min\bigl\{
+                P(\omega_1\given x), P(\omega_2\given x)
+           \bigr\}\, p(x)\, dx \\
+        &= \int_{\R^d} \min\left\{
+                \frac{p(x\given\omega_1)}{\cancel{p(x)}}\cdot
+                \frac{1}{2},
+                \frac{p(x\given\omega_2)}{\cancel{p(x)}}\cdot
+                \frac{1}{2}
+           \right\}\, \cancel{p(x)}\, dx \\
+        &\propto 
+           \int_{\mathcal{R}_1} p(x\given\omega_1)\, dx +
+           \int_{\mathcal{R}_2} p(x\given\omega_2)\, dx.
+    \end{align}
+    La frontera de decisión $\mathcal{S}$ es una hipersuperficie $\R^{d-1}$-dimensional que
+    particiona a $\R^d$ de acuerdo a la verosimilitud de las clases.
+
+    Al proyectar las características a un espacio $\R^{d-1}$-dimensional, la frontera de decisión
+    pasa a ser una hipersuperficie $\R^{d-2}$-dimensional $\mathcal{S}'$.
+    Al tener un grado de libertad menos, $\mathcal{S}'$ no puede corresponder a una superficie
+    arbitraria en $\R^d$, y por lo tanto en general no coincide con $\mathcal{S}$.  Como
+    $\mathcal{S}$ es la frontera que minimiza el error de Bayes, la frontera $\mathcal{S}'$ tiene
+    que entregar un error igual o mayor.  En la figura siguiente, los vectores en las zonas
+    punteadas quedarían mal clasificados por la frontera definida en el espacio proyectado:
+    \begin{center}
+        \includegraphics[width=0.3\textwidth]{error.png}
+    \end{center}
 
    En general, nunca es buena idea aumentar indiscriminadamente el número de dimensiones, por los
    efectos indeseables que esto acarrea:
