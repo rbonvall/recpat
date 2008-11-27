@@ -1,4 +1,4 @@
-% vim: set fileencoding=utf-8 encoding=utf-8:
+% vim: set fileencoding=utf-8 encoding=utf-8 textwidth=80:
 \documentclass[spanish]{article}
 \usepackage{babel}
 \usepackage[utf8]{inputenc}
@@ -78,16 +78,38 @@ más importancia al cumplimiento de propiedades a lo largo de los ejes.  Las pro
         análoga a la desigualdad triangular, pero a lo largo de los ejes.
     \item [Consistencia:]
         el orden a lo largo de una dimensión es independiente de otras
-        dimensiones~(ver figura~\ref{fig:comparacion}).
+        dimensiones~(ver figura~\ref{fig:comp-cons-ind}).
     \item [Transitividad:]
         el traslape de trios ordenados a lo largo de una dimensión implica
         que los cuatro puntos involucrados están ordenados.
 \end{description}
-Además, se propone una cuarta propiedad con el fin de discriminar modelos
-diferentes:
+Además, se propone una cuarta propiedad con el fin de caracterizar mejor
+modelos diferentes:
 \begin{description}
-    \item [Desigualdad de esquina:] XXX
+    \item [Desigualdad de esquina:] explicada gráficamente en la
+    figura~\ref{fig:comp-tri-esq}.
 \end{description}
+Como se ilustra en la figura~\ref{fig:comp-tri-esq}, la desigualdad de esquina
+también es análoga a la desigualdad triangular, pero limitada al caso en que los
+pares de puntos externos están a lo largo del mismo eje coordenado, y con el
+punto central encerrado por los externos.  La distancia euclideana satisface
+esta propiedad, por lo que los modelos que la violan son más generales que el
+modelo métrico.
+\begin{figure}[t]
+  \centering
+  \includegraphics%
+      [width=0.6\textwidth]%
+      {imagenes/triesq.png}
+  \caption{\small %
+    A la izquierda, la desigualdad triangular dice que la
+    línea a trazos es más larga que la punteada, para cualquier lugar del espacio
+    donde esté el punto señalado.  A la derecha, la desigualdad de esquina dice
+    que cada línea a trazos es mayor a una de las punteadas, para cualquier
+    lugar de la zona sombreada donde esté el punto señalado.  
+  }
+  \label{fig:comp-tri-esq}
+\end{figure}
+
 
 
 
@@ -105,28 +127,30 @@ conjuntos de características binarias, que un estímulo puede tener o no.
         \end{align*}
     \item [Independencia:] el orden entre pares de estímulos que concuerdan en
         dos de los componentes de la propiedad de calce es independiente ante
-        cambios en la tercera componente~(ver figura~\ref{fig:comparacion}).
+        cambios en la tercera componente~(ver figura~\ref{fig:comp-cons-ind}).
 \end{description}
 Un resultado importante acerca este modelo es el teorema de representación: si una función de
 similaridad $s$ satisface las tres propiedades, existe una función de similaridad $S$ de la forma
 $S(a, b) = f(A\cap B) - \alpha f(A-B) - \beta f(B-A)$, que es equivalente a $s$ en el sentido que
 preserva el orden entre pares de estímulos.  La función $f$ se denomina la \emph{saliencia} de un
 estímulo.
-
 \begin{figure}[t]
   \centering
-  %\includegraphics%
-  %    [width=0.8\textwidth]%
-  %    {imagenes/comparacion.png}
+  \includegraphics%
+      [width=0.8\textwidth]%
+      {imagenes/consind.png}
   \caption{\small %
-    Comparación entre las propiedades de consistencia, de la estructura de
-    proximidad monótona, e independencia, del FCM.  Ambas describen
-    características compartidas entre pares de puntos que permiten asegurar que el
-    orden se conserva al cambiar otra característica.  En el primer caso, se
-    estas características son dimensiones del espacio; en el segundo, son las
-    componentes en que concuerdan los pares de estímulos.
+    Comparación entre las propiedades de consistencia (de la proximidad monótona)
+    e independencia (del FCM).
+    Ambas describen características compartidas entre pares de puntos
+    que permiten asegurar que el orden se conserva
+    independientemente de otra característica.
+    En el primer caso,
+    estas características son dimensiones del espacio;
+    en el segundo,
+    son las componentes en que concuerdan los pares de estímulos.
   }
-  \label{fig:comparacion}
+  \label{fig:comp-cons-ind}
 \end{figure}
 
 \subsection{FCM difuso con dependencia de características}
@@ -232,22 +256,20 @@ que ella considera relevantes para la búsqueda que realizó.  El hecho que la
 similaridad sea medida en un espacio de características subyacente no es
 importante para ella.
 
-Los axiomas métricos fallan tanto experimentalmente como teóricamente en este
-sentido:  cada uno de ellos ha sido violado en experimentos de percepción, y la
-desigualdad triangular no es verificable bajo el supuesto de una ley de
-generalización monótona.
-
-Por otra parte, la estructura de proximidad monótona es un modelo diseñado para
-ser verificable por la vía experimental.  Además, el FCM difuso con dependencias
-tiene parámetros que deben ser determinados en experimentos.
+Los axiomas métricos fallan en este sentido, ya que bajo el supuesto de una ley
+de generalización monótona, la desigualdad triangular no se traduce en una
+propiedad que sea satisfecha en el espacio perceptual.
 
 \subsection{Verificabilidad experimental}
-Como consecuencia del ítem anterior, es imprescindible que un modelo axiomático
-sea verificable a través de experimentos de percepción, ya que ésta es la única
-manera de medir la similiaridad perceptual.
+Como consecuencia de lo anterior, un modelo de similaridad tiene que ser
+verificable vía experimentación, ya que ésta es la única manera de medir
+la similaridad perceptual.  Los axiomas métricos fallan también en este sentido, ya
+que cada uno de ellos ha sido violado en experimentos de percepción.
 
-XXX
-
+Por otra parte, la estructura de proximidad monótona es un modelo diseñado
+específicamente para ser verificable por la vía experimental.  Además, el FCM
+difuso con dependencias tiene parámetros que deben ser determinados en
+experimentos.
 
 \subsection{Importancia del ordenamiento de los resultados}
 El principal rol de una medida de similaridad es imponer un ordenamiento de los
@@ -275,42 +297,6 @@ Por otra parte, si bien las características no se combinan arbitrariamente en e
 espacio, sí existen dependencias entre ellas.  El FCM difuso extendido da cuenta
 de estas dependencias de manera explícita en la función de similaridad, sin
 necesidad de imponer propiedades sobre el espacio de características.
-
-
-%\section{Comparación entre los modelos}
-
-
-%\begin{figure}[t]
-%  \centering
-%  \includegraphics[bb=0 0 513 166]{imagenes/dom-cons-trans.png}
-%  % dom-cons-trans.png: 641x208 pixel, 90dpi, 18.09x5.87 cm, bb=0 0 513 166
-%  \caption{\small %
-%    Ejemplos de las propiedades de un espacio con estructura de proximidad
-%    monótona. Las líneas con flechas representan distancias entre puntos del
-%    espacio de características.
-%    (a) Dominancia: distancia diagonal es mayor que a lo largo de cada eje.
-%    (b) Consistencia: las relaciones de orden a lo largo de una dimensión son
-%        independientes de otras dimensiones.
-%    (c) Transitividad: relaciones de orden traslapadas fuerzan las mismas
-%        relaciones entre los puntos en la región de traslape.
-%  }
-%  \label{fig:cons-dom-trans}
-%\end{figure}
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=0.8\textwidth]{imagenes/esquina.png}
-  % esquina.png: 467x156 pixel, 90dpi, 13.18x4.40 cm, bb=0 0 374 125
-  \caption{\small %
-    Comparación entre la desigualdad de esquina y la desigualdad
-    triangular.  La desigualdad triangular compara la distancias directa con
-    la distancia a lo largo de dimensiones entre dos puntos.  La desigualdad de
-    esquina sólo impone estas restricciones por tramos, pero deben cumplirse
-    para cualquier lugar de la zona sombreada donde esté el punto central.
-  }
-  \label{fig:esquina}
-\end{figure}
-
 
 
 
