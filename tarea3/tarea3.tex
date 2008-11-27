@@ -16,10 +16,11 @@
 \newcommand{\abs}[1]{\lvert#1\rvert}
 \newcommand{\norm}[1]{\lVert#1\rVert}
 \newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
 
 \title{Reconocimiento de Patrones---Tarea 3}
 \author{Roberto Bonvallet \\ \url {<rbonvall@gmail.com>}}
-\date{Agosto de 2008}
+\date{Noviembre de 2008}
 
 \begin{document}
 \maketitle
@@ -28,7 +29,6 @@
 \pregunta{
     Estudiar los conceptos de métrica, distancia y similaridad.
     ¿Son estos conceptos equivalentes?
-    Justifique usando algunos ejemplos.
 }
 
 Una distancia es una medida de cuán diferentes son dos elementos.  Es una
@@ -45,9 +45,16 @@ Una métrica es una distancia que además satisface los axiomas métricos:
     d(x, z) &\le d(x, y) + d(y, z).
 \end{align*}
 
+Una similaridad es una medida de cuán parecidos son dos elementos.  Una similaridad $s$ satisface:
+\begin{align*}
+    s(x, x) &= s_0, \\
+    s(x, y) &\le s_0, \\
+    s(x, y) = s(y, x).
+\end{align*}
 
-
-
+Distancia y similaridad son conceptos equivalentes, ya que se pueden expresar uno en función del
+otro; por ejemplo: $s(x, y) = 1 - d(x, y)$.  El concepto de métrica es más restrictivo y por lo
+tanto no es equivalente.
 
 
 \section*{Pregunta 2}
@@ -72,7 +79,8 @@ Una métrica es una distancia que además satisface los axiomas métricos:
         \item \pregunta{datos cuantitativos
             (señales ECG, matrices, funciones, tensores, imágenes digitales, etc.),}
 
-            Para señales continuas, distancias típicas son las métricas de Minkowski y
+            Los datos cuantitativos suelen ser representados como vectores en un espacio $\R^n$ o
+            $\C^n$.  Para señales continuas, distancias típicas son las métricas de Minkowski y
             del supremo:
             \begin{align}
                 d_{\text{(Mink)}}(x, y)^p &= \int\bigl\lvert x(t) - y(t)\bigr\rvert^{p}\,dt; &
@@ -89,11 +97,16 @@ Una métrica es una distancia que además satisface los axiomas métricos:
             multiresolución:
             \begin{align}
                 d_{\text{(F)}}(x, y)^p   &= 
-                    \sum_{\text{frecs. $f$ de interés}} \abs{X_f - Y_f}^p \\
+                    \sum_{\text{frecs. $f$ de interés}} \abs{X_f - Y_f}^p, \\
                 d_{\text{(MRA)}}(x, y)^p &= 
                     \sum_{\text{escalas $s$ de interés}}
-                    \bigl\lvert\langle f - g, \psi_s \rangle\,\psi_s \bigr\rvert^p
+                    \bigl\lvert\langle f - g, \psi_s \rangle\,\psi_s \bigr\rvert^p.
             \end{align}
+            Si se conocen las covariancias entre las características, se puede utilizar la distancia
+            de Mahalanobis:
+            \begin{equation}
+                d_{\text{(Mah)}(x, y)^2 = \sum_{i, j} \sigma_ij x_i y_j.
+            \end{equation}
 
         \item \pregunta{datos categóricos
             (documentos, libros, símbolos, jeroglíficos, etc.)}
