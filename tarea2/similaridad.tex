@@ -70,7 +70,7 @@ pero su validez es cuestionada por dos motivos:
 
 \subsection{Estructura de proximidad monótona}
 La estructura de proximidad monótona es un modelo diseñado para ser verificable experimentalmente.
-Esto se logra imponiendo propiedades ordinales, que no se ven afectadas por la función de
+Esto se logra imponiendo propiedades de tipo ordinal, cuya satisfacción no es alterada por la función de
 generalización.  Este modelo es más general y menos restrictivo que el métrico, y otorga
 más importancia al cumplimiento de propiedades a lo largo de los ejes.  Las propiedades son:
 \begin{description}
@@ -78,15 +78,15 @@ más importancia al cumplimiento de propiedades a lo largo de los ejes.  Las pro
         análoga a la desigualdad triangular, pero a lo largo de los ejes.
     \item [Consistencia:]
         el orden a lo largo de una dimensión es independiente de otras
-        dimensiones.
+        dimensiones~(ver figura~\ref{fig:comparacion}).
     \item [Transitividad:]
-        traslapes de trios ordenados a lo largo de una dimensión inducen una
-        relación de orden entre los cuatro elementos involucrados.
+        el traslape de trios ordenados a lo largo de una dimensión implica
+        que los cuatro puntos involucrados están ordenados.
 \end{description}
 Además, se propone una cuarta propiedad con el fin de discriminar modelos
 diferentes:
 \begin{description}
-    \item [Desigualdad de esquina:] la distancia a 
+    \item [Desigualdad de esquina:] XXX
 \end{description}
 
 
@@ -97,13 +97,15 @@ conjuntos de características binarias, que un estímulo puede tener o no.
 \begin{description}
     \item [Calce:] la similaridad tiene la forma $s(a, b) = F(A\cap B, A-B, B-A)$.
     \item [Monotonía:] la similaridad está influenciada por el traslape de características comunes;
-        por ejemplo, en el siguiente ejemplo $A$ se parece más a $B$ que a $C$.
+        por ejemplo, en el siguiente ejemplo $A$ se parece más a $B$ que a $C$:
         \begin{align*}
             A &= \{\phantom{\SMA,  \SMB,} \SMC,          \SMD,          \SME\}  \\
             B &= \{\phantom{\SMA,} \SMB,  \SMC,          \SMD\phantom{, \SME}\} \\
             C &=          \{\SMA,  \SMB,  \SMC\phantom{, \SMD,          \SME}\}
         \end{align*}
-    \item [Independencia:] 
+    \item [Independencia:] el orden entre pares de estímulos que concuerdan en
+        dos de los componentes de la propiedad de calce es independiente ante
+        cambios en la tercera componente~(ver figura~\ref{fig:comparacion}).
 \end{description}
 Un resultado importante acerca este modelo es el teorema de representación: si una función de
 similaridad $s$ satisface las tres propiedades, existe una función de similaridad $S$ de la forma
@@ -111,6 +113,21 @@ $S(a, b) = f(A\cap B) - \alpha f(A-B) - \beta f(B-A)$, que es equivalente a $s$ 
 preserva el orden entre pares de estímulos.  La función $f$ se denomina la \emph{saliencia} de un
 estímulo.
 
+\begin{figure}[t]
+  \centering
+  %\includegraphics%
+  %    [width=0.8\textwidth]%
+  %    {imagenes/comparacion.png}
+  \caption{\small %
+    Comparación entre las propiedades de consistencia, de la estructura de
+    proximidad monótona, e independencia, del FCM.  Ambas describen
+    características compartidas entre pares de puntos que permiten asegurar que el
+    orden se conserva al cambiar otra característica.  En el primer caso, se
+    estas características son dimensiones del espacio; en el segundo, son las
+    componentes en que concuerdan los pares de estímulos.
+  }
+  \label{fig:comparacion}
+\end{figure}
 
 \subsection{FCM difuso con dependencia de características}
 El FCM difuso es una extensión del FCM en que las características binarias (que un estímulo puede
@@ -123,22 +140,22 @@ Un resultado similar al teorema de representación se cumple en el caso difuso, 
 el artículo.  Tras definiciones apropiadas de los operadores difusos de intersección y diferencia de
 conjuntos, $\mu_\cap$ y $\mu_-$, la función de similaridad de Tversky se define como:
 \begin{equation}
-    S(\phi, \psi) = \sum_i\bigl(\mu_\cap (\phi_i, \psi_i) -
-                          \alpha\mu_-  (\phi_i, \psi_i)   -
-                          \beta \mu_-  (\psi_i, \phi_i)\bigr),
+    S(\phi, \psi) = \sum_i\bigl[\mu_\cap (\phi_i, \psi_i) -
+                          \alpha\cdot\mu_-  (\phi_i, \psi_i)   -
+                          \beta \cdot\mu_-  (\psi_i, \phi_i)\bigr],
 \end{equation}
 en la que se ha utilizado la cardinalidad $\#\mu = \sum_i\mu_i$ como función de saliencia.
 
 En el artículo, los autores proponen una extensión del modelo para dar cuenta de la
 interacción de características, de modo que el grado de verdad de una característica pueda afectar
 la medida del conjunto completo de características.  La saliencia $f(\mu) = \#\mu$ es
-generalizada en la forma de una integral de Choquet~(ver
-figura~\ref{fig:choquet}):
-\begin{equation}\label{choquet}
+generalizada en la forma de una integral de Choquet~(ver figura~\ref{fig:choquet}):
+\begin{equation}
     f(\mu) = \sum_i\mu_i = \sum_i\mu_{(i)}
            = \sum_i \bigl(\mu_{(i)} - \mu_{(i-1)}\bigr)
-             \underbrace{\frac{n-i+1}{n}}_{m(\{\mu_{(i)}\})}
+             \underbrace{\frac{n-i+1}{n}}_{m\bigl(\{\mu_{(i)}\}\bigr)}
            = \choquet \mu\;m,
+    \label{choquet}
 \end{equation}
 donde $m: 2^\mu\to{}[0, 1]$ es una medida del aporte a la saliencia total de un subconjunto de
 características, y que en general debe satifacer
@@ -150,11 +167,8 @@ equidistribuida.
 \begin{figure}[t]
   \centering
   \includegraphics%
-      %[bb=0 0 374 125]
       [width=0.8\textwidth]%
       {imagenes/croquet.png}
-  % esquina.png: 467x156 pixel, 90dpi, 13.18x4.40 cm, bb=0 0 374 125
-  \label{fig:choquet}
   \caption{\small %
     A la izquierda, la saliencia de un estímulo vista como una integral de Choquet.
     Las diferencias en grado de verdad entre características consecutivas
@@ -165,6 +179,7 @@ equidistribuida.
     características, sino que sólo cambia la medida en que aportan a la
     saliencia total.
   }
+  \label{fig:choquet}
 \end{figure}
 
 La dependencia entre dos características $x_h$ y $x_k$ es modelada alterando la aditividad de $m$
@@ -182,9 +197,9 @@ sea una medida válida.
 Dada una medida $m$ que incorpora las dependencias, la similaridad de Tversky en el modelo extendido
 se define como:
 \begin{equation}
-    S(\phi, \psi) = \choquet\bigl(\mu_\cap (\phi, \psi) -
-                            \alpha\mu_-  (\phi, \psi)   -
-                            \beta \mu_-  (\psi, \phi)\bigr)\;m.
+    S(\phi, \psi) = \choquet\bigl[\mu_\cap (\phi, \psi) -
+                            \alpha\cdot\mu_-  (\phi, \psi)   -
+                            \beta \cdot\mu_-  (\psi, \phi)\bigr]\;m.
 \end{equation}
 
 
@@ -257,7 +272,7 @@ de estas dependencias de manera explícita en la función de similaridad, sin
 necesidad de imponer propiedades sobre el espacio de características.
 
 
-\section{Comparación entre los modelos}
+%\section{Comparación entre los modelos}
 
 
 %\begin{figure}[t]
@@ -281,7 +296,6 @@ necesidad de imponer propiedades sobre el espacio de características.
   \centering
   \includegraphics[width=0.8\textwidth]{imagenes/esquina.png}
   % esquina.png: 467x156 pixel, 90dpi, 13.18x4.40 cm, bb=0 0 374 125
-  \label{fig:esquina}
   \caption{\small %
     Comparación entre la desigualdad de esquina y la desigualdad
     triangular.  La desigualdad triangular compara la distancias directa con
@@ -289,6 +303,7 @@ necesidad de imponer propiedades sobre el espacio de características.
     esquina sólo impone estas restricciones por tramos, pero deben cumplirse
     para cualquier lugar de la zona sombreada donde esté el punto central.
   }
+  \label{fig:esquina}
 \end{figure}
 
 
