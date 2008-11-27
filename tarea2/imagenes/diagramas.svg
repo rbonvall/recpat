@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32"
-     inkscape:cx="-5063.9675"
-     inkscape:cy="-1246.8073"
+     inkscape:zoom="0.64"
+     inkscape:cx="-6293.3398"
+     inkscape:cy="-2414.0065"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -460,6 +460,14 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="fill:#ffc39b;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M -5943.75,3327.3622 C -5965.6649,3334.9398 -5845.6397,3534.4232 -5865.2344,3533.6122 C -5604.7345,3529.5639 -5480.8605,3536.6644 -5428.125,3549.2372 C -5383.479,3476.438 -5355.8254,3418.9297 -5365.625,3311.7372 C -5544.8683,3267.44 -5751.0765,3260.7407 -5943.75,3327.3622 z"
+       id="path61720"
+       sodipodi:nodetypes="ccccs"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
     <g
        id="g18969"
        inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/croquet.png"
@@ -2504,10 +2512,10 @@
        inkscape:export-ydpi="30.009954" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#00008b;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -6276.2668,2176.8293 C -6264.8868,2176.8293 -6165.8918,2100.8903 -5891.1304,2063.0932 C -5616.3689,2025.2962 -5618.3892,2195.0018 -5246.653,2069.7429"
+       d="M -6027.8293,3340.8918 C -5783.234,3219.0236 -5546.2985,3235.4707 -5268.528,3300.1747"
        id="path3724"
-       sodipodi:nodetypes="csc"
-       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/consind.png"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
        inkscape:export-xdpi="30.449381"
        inkscape:export-ydpi="30.449381" />
     <path
@@ -5507,5 +5515,127 @@
        inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/consind.png"
        inkscape:export-xdpi="30.449381"
        inkscape:export-ydpi="30.449381" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#00008b;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -6283.5569,2118.2927 C -6272.1769,2118.2927 -6173.1819,2042.3537 -5898.4205,2004.5566 C -5623.659,1966.7596 -5625.6793,2136.4652 -5253.9431,2011.2063"
+       id="path61706"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/consind.png"
+       inkscape:export-xdpi="30.449381"
+       inkscape:export-ydpi="30.449381" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#00008b;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -5951.5455,3563.9316 C -5727.6324,3540.4828 -5541.4403,3555.1608 -5352.3806,3589.3313"
+       id="path61708"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30.449381"
+       inkscape:export-ydpi="30.449381" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#00008b;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -5988.2444,3417.8861 C -5539.3643,3305.9196 -5496.5447,3355.5516 -5308.6306,3481.1122"
+       id="path61710"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30.449381"
+       inkscape:export-ydpi="30.449381" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008b01;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M -6007.8125,3292.3622 C -5960.3632,3391.8799 -5875.7792,3551.6767 -5874.1697,3627.5815"
+       id="path61712"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30.449381"
+       inkscape:export-ydpi="30.449381"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008b01;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M -5461.4269,3615.5392 C -5368.2325,3571.6544 -5308.1557,3410.7743 -5334.5557,3246.9976"
+       id="path61716"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30.449381"
+       inkscape:export-ydpi="30.449381" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#008b01;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M -5769.4236,3623.7001 C -5780.5162,3623.7001 -5710.4893,3488.7873 -5770.1645,3220.0868"
+       id="path61718"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30.449381"
+       inkscape:export-ydpi="30.449381" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:21.59999943, 7.19999981;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -5893.75,3558.2997 L -5417.1875,3578.9247"
+       id="path61737"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:21.59999943,7.19999981;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -5415.625,3575.6434 L -5326.5625,3291.5809"
+       id="path61739"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.19999981,7.19999981;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -5736.875,3361.5809 L -5327.5,3288.4559"
+       id="path61741"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.19999981, 7.19999981;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -5894.0625,3557.6747 L -5751.875,3365.7997"
+       id="path61743"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#803300;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path61722"
+       sodipodi:cx="-5925.7812"
+       sodipodi:cy="3159.3936"
+       sodipodi:rx="17.96875"
+       sodipodi:ry="17.96875"
+       d="M -5907.8125,3159.3936 A 17.96875,17.96875 0 1 1 -5943.75,3159.3936 A 17.96875,17.96875 0 1 1 -5907.8125,3159.3936 z"
+       transform="translate(178.125,204.6875)"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:21.59999943, 7.19999981;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -6621.5992,3596.9584 C -5992.3913,3516.8404 -6092.3648,3629.5739 -6256.2876,3241.8528"
+       id="path61747"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.19999981, 7.19999981;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -6615.8043,3596.3657 L -6256.8834,3244.6231"
+       id="path61749"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#803300;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path61751"
+       sodipodi:cx="-5925.7812"
+       sodipodi:cy="3159.3936"
+       sodipodi:rx="17.96875"
+       sodipodi:ry="17.96875"
+       d="M -5907.8125,3159.3936 A 17.96875,17.96875 0 1 1 -5943.75,3159.3936 A 17.96875,17.96875 0 1 1 -5907.8125,3159.3936 z"
+       transform="matrix(0.9972341,-7.4324773e-2,7.4324773e-2,0.9972341,-490.7382,-74.74562)"
+       inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/triesq.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30" />
   </g>
 </svg>
