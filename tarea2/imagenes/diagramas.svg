@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64"
-     inkscape:cx="-6293.3398"
-     inkscape:cy="-2414.0065"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="-2174.2556"
+     inkscape:cy="1253.8933"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -4029,7 +4029,7 @@
     <g
        ns0:text="\\[\n\\sum_{i=2}^4\nm\\bigl(\\{x_{(i)}\\}\\bigr)\n\\]"
        ns0:preamble="/export/home/rbonvall/ramos/recpat/tarea2/preamble.tex"
-       transform="matrix(2.222871,3.8501257,-3.8501257,2.222871,-1839.2324,-2312.8942)"
+       transform="matrix(2.222871,3.8501257,-3.8501257,2.222871,-1859.1197,-2321.733)"
        id="g42316"
        inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/croquet.png"
        inkscape:export-xdpi="30"
@@ -4380,7 +4380,7 @@
     </g>
     <g
        id="g44322"
-       transform="matrix(2.2224142,3.8493345,-3.8493345,2.2224142,-1712.3917,-2382.0047)"
+       transform="matrix(2.2224142,3.8493345,-3.8493345,2.2224142,-1733.8846,-2359.508)"
        ns0:preamble="/export/home/rbonvall/ramos/recpat/tarea2/preamble.tex"
        ns0:text="\\[\n\\gamma_{234}\n\\prod_{i=2}^4\nm\\bigl(\\{x_{(i)}\\}\\bigr)\n\\]"
        inkscape:export-filename="/export/home/rbonvall/ramos/recpat/tarea2/imagenes/croquet.png"
