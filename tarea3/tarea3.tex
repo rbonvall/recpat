@@ -15,6 +15,7 @@
 \newcommand{\card}[1]{\lvert#1\rvert}
 \newcommand{\abs}[1]{\lvert#1\rvert}
 \newcommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\R}{\mathbb{R}}
 
 \title{Reconocimiento de Patrones---Tarea 3}
 \author{Roberto Bonvallet \\ \url {<rbonvall@gmail.com>}}
@@ -29,6 +30,23 @@
     ¿Son estos conceptos equivalentes?
     Justifique usando algunos ejemplos.
 }
+
+Una distancia es una medida de cuán diferentes son dos elementos.  Es una
+función $d:X\times X\to\R_0^+$, donde $X$ es el espacio de características en
+que están representados los elementos.  Una distancia satisface\footnotemark:
+\begin{align*}
+    d(x, y) &\ge 0, \\ d(x, x) &= 0, \\ d(x, y) &= d(y, x).
+\end{align*}
+\footnotetext{\emph{Medidas de Asociación},
+    \url{http://www.ugr.es/~gallardo/pdf/cluster-2.pdf}.}
+Una métrica es una distancia que además satisface los axiomas métricos:
+\begin{align*}
+    d(x, y) &= 0\implies x = y, \\
+    d(x, z) &\le d(x, y) + d(y, z).
+\end{align*}
+
+
+
 
 
 
@@ -93,6 +111,14 @@
             \end{equation}
             Para asignar los pesos, se puede utilizar el esquema tf-idf:  $w_i =
             \text{tf}_{i,d}\cdot\text{idf}_i$, donde tf es 
+
+
+            Para cadenas de símbolos, se puede utilizar la distancia de
+            Levenshtein, que está dada por el mínimo número de operaciones
+            necesarias para transformar una cadena en otra, donde las
+            operaciones definidas son: la inserción, la eliminación o el
+            reemplazo de un símbolo.  No hay una fórmula para esta distancia, y
+            debe ser calculada algorítmicamente.
 
 
     \end{itemize}
