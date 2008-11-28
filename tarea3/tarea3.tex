@@ -159,7 +159,7 @@ entrenamiento.
 \footnotetext{Lars Haendel. \textit{The \textsc{Pnc2} Cluster Algorithm}. Tesis doctoral, Universidad
 de Dortmund, 2003.}
 
-Otra medida es el coeficiente general de similaridad de Gower:
+Otra medida es el coeficiente general de similaridad de Gower~\footnotemark:
 \begin{equation}
    s_{ij} = \frac{\sum_k w_{ijk} s_{ijk}}{\sum_k w_{ijk}},
 \end{equation}
@@ -169,11 +169,28 @@ y $w_{ijk}$ mide la relevancia de la $k$-ésima componente para esta comparació
 Los $w_{ijk}$ son definidos por un usuario, y sirven además para manejar datos
 faltantes ($w_{ijk} = 0$).
 
-Un enfoque similar al de Gower es la introducción de una matriz de similaridad
-combinada\footnotemark
-\footnotetext{Charles Romesburg. \emph{Cluster Analysis for Researchers}.
-Chapter~12: \emph{Resemblance Coefficients for Mixtures of Quantitative and
-Qualitative Attributes}.}
+\footnotetext{
+    \textsc{Clustan}.
+    \emph{Gower Similarity Coefficient}.
+    \url{http://www.clustan.com/gower_similarity.html}}
+
+Para variables categóricas, $s_{ijk} = 1$ cuando los valores coinciden y $s_{ijk} = 0$ cuando son
+distintos.  Para variables cuantitativas, Gower propone la medida $s_{ijk} = 1 - \lvert x_{ik} -
+x_{jk}\rvert/r_k$, donde $r_k$ es el rango de valores de la $k$-ésima variable.
+
+Un enfoque introducido por Romesburg es el uso una matriz de semejanza (resemblance)
+combinada~\footnotemark.  En esencia, se trata de separar las características en $p$ conjuntos,
+agrupados por su naturaleza, y a partir de los datos calcular una matriz de semejanza $R_q$ separada
+para cada conjunto.
+Estas matrices son combinadas en una matriz de semejanza $R = \sum_q w_q R_q$, donde los pesos $w_q$
+suman 1 y permiten ponderar las importancias relativas entre las características de distina
+naturaleza.
+
+\footnotetext{
+    Charles Romesburg.
+    \emph{Cluster Analysis for Researchers}.
+    Chapter~12: \emph{Resemblance Coefficients for Mixtures of Quantitative and Qualitative Attributes},
+    pp.~172--176.}
 
 %\footnotemark
 %\footnotetext{Michael Berthold. \textit{Mixed fuzzy rule formation}.  International Journal of
