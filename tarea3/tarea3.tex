@@ -57,6 +57,7 @@ otro; por ejemplo: $s(x, y) = 1 - d(x, y)$.  El concepto de métrica es más res
 tanto no es equivalente.
 
 
+
 \section*{Pregunta 2}
 \pregunta{Estudiar las diferentes linkage métricas para dos clústers:}
 \begin{itemize}
@@ -123,8 +124,11 @@ tanto no es equivalente.
                 \text{sim}(d_1, d_2) = \frac{d_1\cdot d_2}{\norm{d_1}\norm{d_2}}
             \end{equation}
             Para asignar los pesos, se puede utilizar el esquema tf-idf:  $w_i =
-            \text{tf}_{i,d}\cdot\text{idf}_i$, donde tf es 
-
+            \text{tf}_{i,d}\cdot\text{idf}_i$, donde tf es una medida de
+            frecuencia de aparición de la palabra $k_i$ en $d$, e idf está
+            asociado a en cuántos documentos aparece $k_i$.~\footnotemark
+            \footnotetext{Ricardo Baeza, Berthier Ribeiro. \emph{Modern
+            Information Retrieval}.}
 
             Para cadenas de símbolos, se puede utilizar la distancia de
             Levenshtein, que está dada por el mínimo número de operaciones
@@ -133,6 +137,17 @@ tanto no es equivalente.
             reemplazo de un símbolo.  No hay una fórmula para esta distancia, y
             debe ser calculada algorítmicamente.
 
+            La similaridad entre símbolos puede ser definida ``a mano'',
+            asignando valores de similaridad a cada par de símbolos.  En el caso
+            de símbolos que tienen características propias, se puede definir
+            medidas de similaridad a partir de estas características.  Por
+            ejemplo, los caracteres que se utilizan para escribir dialectos
+            chinos (por ejemplo, el mandarín) son clasificados tradicionalmente
+            por: el número de trazos que se utiliza para escribirlos, los
+            radicales (componentes) que lo componen, y por su pronunciación.
+            Una medida de similaridad entre dos caracteres puede combinar:
+            la diferencia entre el número de trazos, la cantidad de radicales
+            comunes y las semejanzas fonéticas (consonante, vocal y tono).
 
     \end{itemize}
 
@@ -157,8 +172,42 @@ entrenamiento.
 \footnotetext{Lars Haendel. \textit{The \textsc{Pnc2} Cluster Algorithm}. Tesis doctoral, Universidad
 de Dortmund, 2003.}
 
-%\footnotetex{Michael Berthold. \textit{Mixed fuzzy rule formation}.  International Journal of
+Otra medida es el coeficiente general de similaridad de Gower~\footnotemark:
+\begin{equation}
+   s_{ij} = \frac{\sum_k w_{ijk} s_{ijk}}{\sum_k w_{ijk}},
+\end{equation}
+donde $s_{ijk}$ es la similaridad a lo largo de la $k$-ésima dimensión (definida
+de acuerdo a la naturaleza de esa característica)
+y $w_{ijk}$ mide la relevancia de la $k$-ésima componente para esta comparación.
+Los $w_{ijk}$ son definidos por un usuario, y sirven además para manejar datos
+faltantes ($w_{ijk} = 0$).
+
+\footnotetext{
+    \textsc{Clustan}.
+    \emph{Gower Similarity Coefficient}.
+    \url{http://www.clustan.com/gower_similarity.html}}
+
+Para variables categóricas, $s_{ijk} = 1$ cuando los valores coinciden y $s_{ijk} = 0$ cuando son
+distintos.  Para variables cuantitativas, Gower propone la medida $s_{ijk} = 1 - \lvert x_{ik} -
+x_{jk}\rvert/r_k$, donde $r_k$ es el rango de valores de la $k$-ésima variable.
+
+Un enfoque introducido por Romesburg es el uso una matriz de semejanza (resemblance)
+combinada~\footnotemark.  En esencia, se trata de separar las características en $p$ conjuntos,
+agrupados por su naturaleza, y a partir de los datos calcular una matriz de semejanza $R_q$ separada
+para cada conjunto.
+Estas matrices son combinadas en una matriz de semejanza $R = \sum_q w_q R_q$, donde los pesos $w_q$
+suman 1 y permiten ponderar las importancias relativas entre las características de distina
+naturaleza.
+
+\footnotetext{
+    Charles Romesburg.
+    \emph{Cluster Analysis for Researchers}.
+    Chapter~12: \emph{Resemblance Coefficients for Mixtures of Quantitative and Qualitative Attributes},
+    pp.~172--176.}
+
+%\footnotemark
+%\footnotetext{Michael Berthold. \textit{Mixed fuzzy rule formation}.  International Journal of
 %Approximate Reasoning 32~(2003) 67--84.
-
-
+%
+%
 \end{document}
